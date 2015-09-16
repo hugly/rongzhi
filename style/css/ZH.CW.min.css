@@ -1,0 +1,23 @@
+/*
+@ project:CC
+@ date:2015-09-16
+*/
+.wapper {
+  width: 1000px;
+  height: 1000px;
+  min-height: 1px;
+  zoom: 1;
+  margin: 0 auto;
+  border: 1px solid #000000;
+}
+.wapper:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .right {
+  width: 645px;
+  height: 1000px;
+}
