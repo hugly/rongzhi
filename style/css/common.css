@@ -1,0 +1,90 @@
+/*
+@ project:CC
+@ date:2015-09-17
+*/
+.HL_Navigation {
+  margin-top: 20px;
+  min-height: 1px;
+  zoom: 1;
+}
+.HL_Navigation:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.HL_Navigation li {
+  float: left;
+  width: 127px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 30px;
+  font-size: 16px;
+  color: #787878;
+  border-bottom: 1px solid #dcdcdc;
+  cursor: pointer;
+}
+.HL_Navigation li.active {
+  color: #f8b237;
+  border-bottom: 1px solid #f8b237;
+}
+.HL_Navigation_two {
+  margin-top: 20px;
+  min-height: 1px;
+  zoom: 1;
+}
+.HL_Navigation_two:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.HL_Navigation_two li {
+  float: left;
+  width: 110px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 30px;
+  font-size: 16px;
+  color: #787878;
+  border-bottom: 1px solid #dcdcdc;
+  cursor: pointer;
+}
+.HL_Navigation_two li.active {
+  color: #f8b237;
+  border-bottom: 1px solid #f8b237;
+}
+.HL_Classification {
+  width: 145px;
+  float: left;
+}
+.HL_Classification div {
+  width: 127px;
+  height: 28px;
+  background: #e5e5e5;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 28px;
+  color: #787878;
+  font-size: 14px;
+  padding-left: 18px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.HL_Classification .active {
+  background: #00a189;
+  color: #fff;
+}

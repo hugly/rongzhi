@@ -5,6 +5,7 @@
 .wapper {
   width: 1000px;
   margin: 0 auto;
+  margin-bottom: 50px;
   min-height: 1px;
   zoom: 1;
 }
@@ -16,7 +17,7 @@
   visibility: hidden;
 }
 .wapper .left {
-  width: 760px;
+  width: 774px;
   float: left;
 }
 .wapper .left .box {
@@ -38,8 +39,9 @@
 .wapper .left .box .left_right ol li {
   padding-bottom: 10px;
   width: 580px;
-  border-bottom: 1px dashed #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
   margin-bottom: 10px;
+  color: #787878;
 }
 .wapper .left .box .left_right ol li h3 {
   font-size: 14px;
@@ -48,6 +50,8 @@
   line-height: 100%;
   padding-left: 5px;
   margin-bottom: 10px;
+  width: 95%;
+  display: inline-block;
 }
 .wapper .left .box .left_right ol li div {
   min-height: 1px;
@@ -75,10 +79,9 @@
   float: left;
   width: 459px;
 }
-.wapper .left .box .left_right ol li a {
+.wapper .left .box .left_right ol li .com {
   display: block;
   text-indent: 2em;
-  color: #787878;
 }
 .wapper .left .box .left_right ol li .time {
   text-align: right;

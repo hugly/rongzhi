@@ -4,7 +4,6 @@
 */
 .wapper {
   width: 1000px;
-  height: 100%;
   margin: 0 auto;
   min-height: 1px;
   zoom: 1;
@@ -17,141 +16,103 @@
   visibility: hidden;
 }
 .wapper .left {
-  width: 610px;
-  height: 100%;
   float: left;
+  padding-bottom: 50px;
 }
-.wapper .left h3 {
-  width: 80%;
-  white-space: nowrap;
-  overflow: hidden;
-  word-wrap: normal;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  font-size: 20px;
-  color: #5e5e5e;
-  text-align: center;
-  padding: 0 10%;
-  margin-top: 54px;
-}
-.wapper .left .from {
-  text-align: right;
-  color: #787878;
-  margin-top: 30px;
-  line-height: 38px;
-}
-.wapper .left .picture {
-  width: 100%;
-  height: 358px;
-}
-.wapper .left .picture img {
-  width: 100%;
-  height: 100%;
-}
-.wapper .left .name {
-  line-height: 30px;
-  width: 90%;
-  white-space: nowrap;
-  overflow: hidden;
-  word-wrap: normal;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  color: #5e5e5e;
-}
-.wapper .left .detail {
-  width: 100%;
-  border-top: 1px solid #dcdcdc;
-  margin-top: 20px;
-}
-.wapper .left .detail p {
-  margin-top: 27px;
-  color: #5e5e5e;
-}
-.wapper .left .detail .edit {
-  text-align: right;
-  margin-top: 45px;
-}
-.wapper .left .share {
-  width: 100%;
-  border-top: 1px solid #dcdcdc;
-  margin-top: 5px;
-  padding-top: 10px;
-  height: 90px;
-}
-.wapper .left .share span {
-  color: #5e5e5e;
-}
-.wapper .left .share a {
-  padding-left: 22px;
-  margin-right: 10px;
-}
-.wapper .left .share .share_wx {
-  background: url("../css/images/share-wx.png") no-repeat 0 center;
-}
-.wapper .left .share .share_f {
-  background: url("../css/images/share-f.png") no-repeat 0 center;
-}
-.wapper .left .share .share_tx {
-  background: url("../css/images/share-tx.png") no-repeat 0 center;
-}
-.wapper .left .share .share_xl {
-  background: url("../css/images/share-xl.png") no-repeat 0 center;
-}
-.wapper .left .share .share_sh {
-  background: url("../css/images/share-sh.png") no-repeat 0 center;
-}
-.wapper .right {
-  width: 340px;
-  float: right;
-  height: 1000px;
-}
-.wapper .right .title {
+.wapper .left .box {
+  margin-top: 24px;
   min-height: 1px;
   zoom: 1;
-  margin-top: 77px;
 }
-.wapper .right .title:after {
+.wapper .left .box:after {
   content: "020";
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
 }
-.wapper .right .title h3 {
+.wapper .left .box .left_right {
+  float: right;
+}
+.wapper .left .box .left_right .list {
+  width: 456px;
+}
+.wapper .left .box .left_right .list div {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .left .box .left_right .list div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left .box .left_right .list div h3 {
   font-size: 14px;
   color: #787878;
-  width: 130px;
+  line-height: 20px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f8b237;
+  width: 150px;
+  margin-top: -4px;
+  float: left;
   white-space: nowrap;
   overflow: hidden;
   word-wrap: normal;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
-  border-bottom: 1px solid #f8b237;
-  float: left;
 }
-.wapper .right .title a {
+.wapper .left .box .left_right .list div b {
   float: right;
-  border-bottom: 1px solid #dcdcdc ;
-  width: 210px;
-  text-align: right;
-  margin-top: 3px;
+  width: 301px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-top: 16px;
 }
-.wapper .right ul {
-  min-height: 220px;
+.wapper .left .box .left_right .list .tatle {
+  width: 90%;
+  text-align: left;
+  font-size: 14px;
+  color: #787878;
   margin-top: 10px;
+  padding-left: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
-.wapper .right ul li {
-  line-height: 22px;
+.wapper .left .box .left_right .list ol {
+  margin-top: 5px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.wapper .left .box .left_right .list ol li {
   list-style: inside;
   color: #787878;
+  line-height: 20px;
 }
-.wapper .right .adv {
-  width: 100%;
-  height: 458px;
-  margin-top: 50px;
+.wapper .right {
+  float: right;
+  width: 310px;
+  padding-top: 74px;
+  padding-bottom: 50px;
 }
-.wapper .right .adv a,
-.wapper .right .adv img {
+.wapper .right div {
+  width: 153px;
+  height: 122px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.wapper .right div a,
+.wapper .right div img {
+  display: inline-block;
   width: 100%;
   height: 100%;
+}
+.wapper .right .pic {
+  margin-top: 20px;
+  width: 100%;
+  height: 110px;
 }
