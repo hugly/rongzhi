@@ -1,0 +1,261 @@
+/*
+@ project:CC
+@ date:2015-09-17
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left {
+  width: 634px;
+  float: left;
+}
+.wapper .left .box {
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+.wapper .left .box .tatle {
+  margin-bottom: 30px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .left .box .tatle:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left .box .tatle h3 {
+  width: 185px;
+  border-bottom: 1px solid #f8b237;
+  float: left;
+  font-size: 14px;
+  color: #787878;
+  padding-left: 5px;
+  line-height: 30px;
+}
+.wapper .left .box .tatle h3 i {
+  color: #f8b237;
+  font-size: 12px;
+}
+.wapper .left .box .tatle h3 img {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+.wapper .left .box .tatle div {
+  width: 444px;
+  border-bottom: 1px solid #dcdcdc;
+  float: right;
+  text-align: right;
+  margin-top: 12px;
+}
+.wapper .left .box .name {
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .left .box .name img {
+  width: 36px;
+  height: 36px;
+  float: left;
+}
+.wapper .left .box .name p {
+  float: left;
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-top: 9px;
+  margin-left: 10px;
+  color: #787878;
+}
+.wapper .left .box .name .time {
+  float: right;
+  margin-top: 9px;
+  color: #787878;
+}
+.wapper .left .box .vote {
+  margin-top: 20px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .left .box .vote:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left .box .vote .chek {
+  float: left;
+  margin-left: 25px;
+}
+.wapper .left .box .vote .chek div {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .left .box .vote .chek div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left .box .vote .chek div input {
+  float: left;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+.wapper .left .box .vote .chek div i {
+  float: left;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #787878;
+  line-height: 26px;
+}
+.wapper .left .box .vote .View {
+  float: right;
+}
+.wapper .left .box .vote .View .show {
+  margin-bottom: 13px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .left .box .vote .View .show:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left .box .vote .View .show .pic {
+  float: left;
+}
+.wapper .left .box .vote .View .show .pic .div1 {
+  width: 220px;
+  height: 12px;
+  border: 1px solid #ffd267;
+  border-radius: 5px;
+  position: relative;
+}
+.wapper .left .box .vote .View .show .pic .div1 .div2 {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 100px;
+  height: 12px;
+  background: #ffd267;
+  border-radius: 5px;
+}
+.wapper .left .box .vote .View .show .pic .div1 .div2_red {
+  background: #ff6a58;
+  width: 200px;
+}
+.wapper .left .box .vote .View .show .pic .div1 .div2_blue {
+  background: #88abda;
+  width: 150px;
+}
+.wapper .left .box .vote .View .show .pic .div1_blue {
+  border: 1px solid #88abda;
+}
+.wapper .left .box .vote .View .show .sum {
+  float: left;
+  color: #009882;
+  margin-left: 20px;
+  margin-top: -3px;
+}
+.wapper .left .box .sub {
+  display: inline-block;
+  width: 85px;
+  height: 20px;
+  background: #f8b237;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 7px;
+  margin-left: 540px;
+  margin-top: 30px;
+}
+.wapper .left .box .sub a {
+  color: #fff;
+}
+.wapper .right {
+  width: 320px;
+  float: right;
+  padding-top: 44px;
+}
+.wapper .right .vote_show {
+  min-height: 1px;
+  zoom: 1;
+  margin-bottom: 15px;
+}
+.wapper .right .vote_show:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .right .vote_show h3 {
+  font-size: 14px;
+  color: #00a189;
+  float: left;
+  border-bottom: 1px solid #f8b237;
+  width: 120px;
+  padding-left: 25px;
+  background: url("../css/images/pic_2.png") no-repeat 0 center;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .right .vote_show div {
+  width: 175px;
+  float: right;
+  border-bottom: 1px solid #dcdcdc;
+  margin-top: 21px;
+}
+.wapper .right .Vote_t .name {
+  padding: 0 10px;
+  width: 217px;
+  display: inline-block;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #787878;
+}
+.wapper .right .Vote_t .sum {
+  width: 75px;
+  display: inline-block;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #f8b237 ;
+}

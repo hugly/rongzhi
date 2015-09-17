@@ -25,7 +25,8 @@ module.exports = function(grunt) {
           'style/css/ZH.CW_Survey_two.min.css': 'style/less/ZH.CW_Survey_two.less',
           'style/css/ZH.CW.Notice.min.css': 'style/less/ZH.CW.Notice.less',
           'style/css/ZH.CW_Vote.min.css': 'style/less/ZH.CW_Vote.less',
-          'style/css/ZH.CW_Vote_two.min.css': 'style/less/ZH.CW_Vote_two.less'
+          'style/css/ZH.CW_Vote_two.min.css': 'style/less/ZH.CW_Vote_two.less',
+          'style/css/ZH.CW_Vote_three.min.css': 'style/less/ZH.CW_Vote_three.less'
 
 
         }
