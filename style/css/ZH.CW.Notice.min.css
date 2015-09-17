@@ -1,0 +1,85 @@
+/*
+@ project:CC
+@ date:2015-09-17
+*/
+.wapper {
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left {
+  width: 774px;
+  float: left;
+}
+.wapper .left .box {
+  height: 352px;
+  margin-top: 24px;
+}
+.wapper .left .box ol {
+  width: 774px;
+  overflow: hidden;
+}
+.wapper .left .box ol li {
+  padding-bottom: 5px;
+  border-bottom: 1px dashed  #dcdcdc;
+  margin-bottom: 35px;
+  position: relative;
+}
+.wapper .left .box ol li div .pic {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  margin-top: -30px;
+}
+.wapper .left .box ol li div .pic img {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.wapper .left .box ol li div .det {
+  margin-left: 55px;
+}
+.wapper .left .box ol li div .det h3 {
+  font-size: 14px;
+  color: #00a189;
+  border-left: 2px solid #00a189;
+  line-height: 100%;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+.wapper .left .box ol li a {
+  display: block;
+  color: #787878;
+}
+.wapper .left .box ol li .time {
+  text-align: right;
+  margin-top: 10px;
+  color: #787878;
+}
+.wapper .left .box .peg_box {
+  margin-top: 15px;
+}
+.wapper .right {
+  float: right;
+  padding-top: 74px;
+}
+.wapper .right div {
+  width: 195px;
+  height: 258px;
+}
+.wapper .right div a,
+.wapper .right div img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}

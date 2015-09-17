@@ -145,3 +145,6 @@ td {
   word-break: break-all;
   word-wrap: normal;
 }
+b {
+  font-weight: normal;
+}
