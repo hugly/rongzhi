@@ -1,6 +1,6 @@
 /*
 @ project:CC
-@ date:2015-09-16
+@ date:2015-09-17
 */
 .wapper {
   width: 1000px;
@@ -107,28 +107,16 @@
   padding: 10px 0;
   border: 1px solid #dcdcdc;
   margin-top: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  word-wrap: normal;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  min-height: 1px;
-  zoom: 1;
-}
-.wapper .right .exc .list:after {
-  content: "020";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+  position: relative;
 }
 .wapper .right .exc .list .div1 {
   width: 17px;
   height: 17px;
-  float: left;
   background: #f7b91c;
   margin-left: 23px;
-  margin-right: 35px;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
 }
 .wapper .right .exc .list .div2 {
   background: #a0bf62;
@@ -137,8 +125,8 @@
   background: #7ecef4;
 }
 .wapper .right .exc .list p {
+  margin-left: 70px;
   width: 570px;
-  float: left;
   color: #787878;
 }
 .wapper .right .rec {
