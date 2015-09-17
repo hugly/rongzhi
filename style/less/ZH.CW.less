@@ -1,18 +1,221 @@
 @import "lib.less";
 .wapper{
   width: 1000px;
-  height: 1000px;
   .cf();
   margin: 0 auto;
-  border: 1px solid #000000;
+  padding-bottom: 50px;
   .right{
     width: 645px;
-    height:1000px;
-    div{
+    float: left;
+    .Screen{
+      margin-top:30px;
+      select{
+        width: 94px;
+        height: 22px;
+        margin-right: 5px;
+        color: #787878;
+      }
+      i{
+        margin-right: 5px;
+        font-size: 14px;
+        color: #787878;
+      }
+    }
+    .head{
+      margin-top: 25px;
+      .cf();
+      h3{
+        font-size:16px;
+        color: #787878;
+        float:left;
+        border-bottom: 1px solid #f8b237;
+        width: 85px;
+        padding-left:5px;
+        .omit();
+      }
+      div{
+        border-bottom: 1px solid #dcdcdc ;
+        float: right;
+        width: 555px;
+        text-align: right;
+        height: 24px;
+        a{
+          font-size: 13px;
+          color: #787878;
+        }
+      }
 
+    }
+    .notice{
+      width: 100%;
+      margin-top:10px;
+      .cf();
+      .pic{
+        float: left;
+        width: 124px;
+        height: 116px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .con{
+        margin-left: 41px;
+        float: left;
+        width: 480px;
+        li{
+          margin-bottom: 20px;
+          list-style: decimal;
+          color: #787878;
+        }
+      }
+    }
+    .exc{
+      .list{
+        width: 100%;
+        padding: 10px 0;
+        border: 1px solid #dcdcdc;
+        margin-top: 10px;
+        .omit();
+        .cf();
+        .div1{
+          width: 17px;
+          height: 17px;
+          float: left;
+          background: #f7b91c;
+          margin-left: 23px;
+          margin-right: 35px;
+        }
+        .div2{
+          background: #a0bf62;
+        }
+        .div3{
+          background: #7ecef4;
+        }
+        p{
+          width: 570px;
+          float: left;
+          color: #787878;
+        }
+      }
+    }
+    .rec{
+      margin-top: 22px;
+      margin-right: -35px;
+
+      .cf();
+      li{
+        width: 134px;
+        float: left;
+        margin-right: 36px;
+        div{
+          width:134px;
+          line-height: 20px;
+          .omit();
+        }
+        .pic{
+          height: 88px;
+          margin-bottom: 15px;
+          a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+          }
+          img{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .lv{
+          color: #7dd473;
+          i,b{
+            display: inline-block;
+            width: 12px;
+            height: 10px;
+            background: url("../css/images/heart.png") no-repeat 0 center ;
+          }
+          b{
+            background: url("../css/images/heart.png") no-repeat -13px center ;
+          }
+        }
+      }
     }
   }
   .left{
+    width:305px;
+    float: right;
+    padding-top: 52px;
+    .head{
+      margin-top: 25px;
+      .cf();
+      h3{
+        font-size:16px;
+        color: #787878;
+        float:left;
+        border-bottom: 1px solid #f8b237;
+        width: 100px;
+        padding-left:25px;
+        background: url("../css/images/pic_1.png")no-repeat 0 center ;
+        .omit();
+      }
+      .vote{
+        background: url("../css/images/pic_2.png")no-repeat 2px center ;
+      }
+      .fin{
+        background: url("../css/images/pic_3.png")no-repeat 2px center ;
+      }
+      div{
+        border-bottom: 1px solid #dcdcdc ;
+        float: right;
+        width: 180px;
+        text-align: right;
+        height: 24px;
+        a{
+          font-size: 13px;
+          color: #787878;
+        }
+      }
 
+    }
+    .list{
+      width: 100%;
+      margin-top: 10px;
+      padding-left: 15px;
+      h4{
+        width: 90%;
+        .omit();
+        font-size: 13px;
+        color: #787878;
+        line-height: 30px;
+      }
+      p{
+        color: #787878;
+        line-height: 25px;
+        .cf();
+        input{
+          float: left;
+          margin-top: 7px;
+          margin-right: 10px;
+        }
+        i{
+          float: left;
+          width: 250px;
+          .omit();
+        }
+      }
+      .btn{
+        a{
+          display: inline-block;
+          width: 100px;
+          height: 34px;
+          border: 1px solid #bfbfbf;
+          text-align: center;
+          line-height: 34px;
+          margin-right: 20px;
+          margin-top: 15px;
+        }
+      }
+    }
   }
 }

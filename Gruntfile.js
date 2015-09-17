@@ -17,7 +17,8 @@ module.exports = function(grunt) {
         files: {
           'style/css/reset.min.css': 'style/less/reset.less',
           'style/css/HL.Message.min.css': 'style/less/HL.Message.less',
-          'style/css/ZH.CW.min.css': 'style/less/ZH.CW.less'
+          'style/css/ZH.CW.min.css': 'style/less/ZH.CW.less',
+          'style/css/HL.News.min.css': 'style/less/HL.News.less'
 
 
         }

@@ -4,11 +4,10 @@
 */
 .wapper {
   width: 1000px;
-  height: 1000px;
   min-height: 1px;
   zoom: 1;
   margin: 0 auto;
-  border: 1px solid #000000;
+  padding-bottom: 50px;
 }
 .wapper:after {
   content: "020";
@@ -19,5 +18,281 @@
 }
 .wapper .right {
   width: 645px;
-  height: 1000px;
+  float: left;
+}
+.wapper .right .Screen {
+  margin-top: 30px;
+}
+.wapper .right .Screen select {
+  width: 94px;
+  height: 22px;
+  margin-right: 5px;
+  color: #787878;
+}
+.wapper .right .Screen i {
+  margin-right: 5px;
+  font-size: 14px;
+  color: #787878;
+}
+.wapper .right .head {
+  margin-top: 25px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .right .head:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .right .head h3 {
+  font-size: 16px;
+  color: #787878;
+  float: left;
+  border-bottom: 1px solid #f8b237;
+  width: 85px;
+  padding-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .right .head div {
+  border-bottom: 1px solid #dcdcdc ;
+  float: right;
+  width: 555px;
+  text-align: right;
+  height: 24px;
+}
+.wapper .right .head div a {
+  font-size: 13px;
+  color: #787878;
+}
+.wapper .right .notice {
+  width: 100%;
+  margin-top: 10px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .right .notice:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .right .notice .pic {
+  float: left;
+  width: 124px;
+  height: 116px;
+}
+.wapper .right .notice .pic img {
+  width: 100%;
+  height: 100%;
+}
+.wapper .right .notice .con {
+  margin-left: 41px;
+  float: left;
+  width: 480px;
+}
+.wapper .right .notice .con li {
+  margin-bottom: 20px;
+  list-style: decimal;
+  color: #787878;
+}
+.wapper .right .exc .list {
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #dcdcdc;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .right .exc .list:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .right .exc .list .div1 {
+  width: 17px;
+  height: 17px;
+  float: left;
+  background: #f7b91c;
+  margin-left: 23px;
+  margin-right: 35px;
+}
+.wapper .right .exc .list .div2 {
+  background: #a0bf62;
+}
+.wapper .right .exc .list .div3 {
+  background: #7ecef4;
+}
+.wapper .right .exc .list p {
+  width: 570px;
+  float: left;
+  color: #787878;
+}
+.wapper .right .rec {
+  margin-top: 22px;
+  margin-right: -35px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .right .rec:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .right .rec li {
+  width: 134px;
+  float: left;
+  margin-right: 36px;
+}
+.wapper .right .rec li div {
+  width: 134px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .right .rec li .pic {
+  height: 88px;
+  margin-bottom: 15px;
+}
+.wapper .right .rec li .pic a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.wapper .right .rec li .pic img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.wapper .right .rec li .lv {
+  color: #7dd473;
+}
+.wapper .right .rec li .lv i,
+.wapper .right .rec li .lv b {
+  display: inline-block;
+  width: 12px;
+  height: 10px;
+  background: url("../css/images/heart.png") no-repeat 0 center;
+}
+.wapper .right .rec li .lv b {
+  background: url("../css/images/heart.png") no-repeat -13px center;
+}
+.wapper .left {
+  width: 305px;
+  float: right;
+  padding-top: 52px;
+}
+.wapper .left .head {
+  margin-top: 25px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .left .head:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left .head h3 {
+  font-size: 16px;
+  color: #787878;
+  float: left;
+  border-bottom: 1px solid #f8b237;
+  width: 100px;
+  padding-left: 25px;
+  background: url("../css/images/pic_1.png") no-repeat 0 center;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .left .head .vote {
+  background: url("../css/images/pic_2.png") no-repeat 2px center;
+}
+.wapper .left .head .fin {
+  background: url("../css/images/pic_3.png") no-repeat 2px center;
+}
+.wapper .left .head div {
+  border-bottom: 1px solid #dcdcdc ;
+  float: right;
+  width: 180px;
+  text-align: right;
+  height: 24px;
+}
+.wapper .left .head div a {
+  font-size: 13px;
+  color: #787878;
+}
+.wapper .left .list {
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+.wapper .left .list h4 {
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  color: #787878;
+  line-height: 30px;
+}
+.wapper .left .list p {
+  color: #787878;
+  line-height: 25px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .left .list p:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left .list p input {
+  float: left;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+.wapper .left .list p i {
+  float: left;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .left .list .btn a {
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+  border: 1px solid #bfbfbf;
+  text-align: center;
+  line-height: 34px;
+  margin-right: 20px;
+  margin-top: 15px;
 }
