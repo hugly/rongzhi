@@ -3,7 +3,7 @@
 @ date:2015-09-17
 */
 .wapper {
-  width: 1000px;
+  width: 980px;
   height: 100%;
   margin: 0 auto;
   min-height: 1px;
@@ -32,12 +32,11 @@
   color: #5e5e5e;
   text-align: center;
   padding: 0 10%;
-  margin-top: 54px;
+  margin-top: 20px;
 }
 .wapper .left .from {
   text-align: right;
   color: #787878;
-  margin-top: 30px;
   line-height: 38px;
 }
 .wapper .left .picture {
