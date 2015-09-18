@@ -1,5 +1,46 @@
 @import "lib.less";
-//导航
+
+//主页面导航部分
+.nav{ width: 100%; height: 36px; position: relative; background-color: #009883; z-index: 1; min-width: 980px;
+  .nav-content{ width: 980px; margin: 0 auto; .cf();  }
+  .nav-left{ float: left;
+    ul{ .cf();
+      li{ float: left; width: 100px; height: 36px; line-height: 36px; text-align: center; border-right: 1px solid #0a6e60; box-shadow: 1px 0 1px #16baa3;
+        a{ display: inline-block; width: 100%; height: 100%; color: #fff;}
+      }
+      li:first-child{ width: 0;}
+      li:hover{ background-color: #097264; width: 98px; margin-left:1px; padding-right: 1px;
+        .sec-nav{ display: block; height: 36px; transition: height .2s;}
+      }
+    }
+  }
+  .nav-right{
+    float: right; height: 36px; line-height: 36px;
+    span{ padding-left: 25px; .bg("phone.png",no-repeat,0 0); color: #fff;}
+  }
+  .sec-nav{ position: absolute; left: 0; top: 36px; z-index: 9; width: 100%; height: 0; .bg("nav-bg.png",repeat,0 0); opacity: .8; overflow: hidden;
+    ul{ position: relative; .cf();
+      li{ float: left; width: 120px; height: 36px; line-height: 36px; text-align: center; border-right: 1px solid #195949; box-shadow: 1px 0 1px #1e957b;
+        a{ display: inline-block; width: 100%; height: 100%; color: #fff;}
+      }
+      li:first-child{ width: 0;}
+      li:hover{ background-color: #7dd473; width: 118px; margin-left:1px; padding-right: 1px;}
+    }
+  }
+}
+
+//silder部分
+.silder{ width: 100%; height: 130px; position: relative; z-index: 0; min-width: 980px;
+  .silder-img{ width: 100%; height: 130px; z-index: 1;
+    img{ display: block; width: 100%; height: 100%;}
+  }
+  .silder-zoom{ width: 100%; height: 130px; background-color: #191919; opacity: .4; position: absolute; left: 0; top: 0; z-index: 2;}
+  .silder-desc{ width: 100%; height: 130px; position: absolute; left: 0; top: 0; z-index: 3;
+    h3{ width: 100%; height: 130px; line-height: 130px; font-size: 18px; color: #fff; text-align: center;}
+  }
+}
+
+//二级页面导航
 .HL_Navigation{
   margin-top: 20px;
   .cf();
@@ -19,7 +60,7 @@
     border-bottom: 1px solid #f8b237;
   }
 }
-//导航
+//二级页面导航
 .HL_Navigation_two{
   margin-top: 20px;
   .cf();
@@ -39,7 +80,7 @@
     border-bottom: 1px solid #f8b237;
   }
 }
-//二级分类
+//二级页面二级分类
 .HL_Classification{
   width: 145px;
   float: left;
