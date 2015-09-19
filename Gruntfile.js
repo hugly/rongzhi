@@ -30,7 +30,10 @@ module.exports = function(grunt) {
           'style/css/ZH.CW_Vote_three.min.css': 'style/less/ZH.CW_Vote_three.less',
           'style/css/ZH.CW_Rec_two.min.css': 'style/less/ZH.CW_Rec_two.less',
           'style/css/ZH.CW_Debate.min.css': 'style/less/ZH.CW_Debate.less',
-          'style/css/ZH.CW_Debate_two.min.css': 'style/less/ZH.CW_Debate_two.less'
+          'style/css/ZH.CW_Debate_two.min.css': 'style/less/ZH.CW_Debate_two.less',
+          'style/css/wz-list.min.css': 'style/less/wz-list.less',
+          'style/css/wz-mymessage.min.css': 'style/less/wz-mymessage.less',
+          'style/css/wz-mymessagedetail.min.css': 'style/less/wz-myssagedetail.less'
 
 
         }
