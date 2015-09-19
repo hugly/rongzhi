@@ -1,5 +1,6 @@
 @import "lib.less";
 
+body{ width: 100%; height: auto; min-width: 980px; position: relative;}
 .w980{ width: 980px; position: relative; margin: 0 auto;}
 //主页面导航部分
 .nav{ width: 100%; height: 36px; position: relative; background-color: #009883; z-index: 1; min-width: 980px;
@@ -38,6 +39,25 @@
   .silder-zoom{ width: 100%; height: 130px; background-color: #191919; opacity: .4; position: absolute; left: 0; top: 0; z-index: 2;}
   .silder-desc{ width: 100%; height: 130px; position: absolute; left: 0; top: 0; z-index: 3;
     h3{ width: 100%; height: 130px; line-height: 130px; font-size: 18px; color: #fff; text-align: center;}
+  }
+}
+
+
+//在线咨询部分
+.consultation{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 10; background-color: rgba(0,0,0,.4); display: none;
+  .consu-box{ width: 500px; height: 300px; padding: 20px; position: fixed; left: 50%; top: 50%; margin-left: -270px; margin-top: -170px; background-color: #fff; box-shadow: 1px 1px 3px #000;
+    .consu-title{ height: 23px; line-height: 23px; margin-bottom: 10px; position: relative; .cf();
+      h3{ float: left; border-left: 3px solid #009f88; height: 23px; line-height: 23px; padding-left: 10px; width: 460px; color: #787878; font-size: 14px;}
+      .close{ float: left; width: 23px; height: 23px; .bg("rz1.png",no-repeat,0 -192px);}
+    }
+    .consu-context{ width: 100%; position: relative;
+      textarea{ width: 478px; height: 198px; border: 1px solid #333; resize: none; padding: 10px;}
+    }
+    .consu-oper{ padding: 0 70px; width: 360px; height: 36px; position: relative; .cf();
+      a{ float: left; width: 140px; height: 36px; line-height: 36px; text-align: center; font-size: 14px; color: #fff; margin: 0 20px; border-radius: 18px;}
+      a.send{ background-color: #00a089;}
+      a.cancel{ background-color: #ff4343;}
+    }
   }
 }
 
