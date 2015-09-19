@@ -320,6 +320,7 @@
   text-align: center;
   background-color: #fff;
   color: #777;
+  cursor: pointer;
 }
 .left .main .box .box-title span.active {
   background-color: #bbb;
