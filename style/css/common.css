@@ -1,6 +1,6 @@
 /*
 @ project:CC
-@ date:2015-09-17
+@ date:2015-09-19
 */
 .HL_Navigation {
   margin-top: 20px;
@@ -27,6 +27,21 @@
   font-size: 16px;
   color: #787878;
   border-bottom: 1px solid #dcdcdc;
+  cursor: pointer;
+}
+.HL_Navigation li:hover {
+  float: left;
+  width: 127px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 30px;
+  font-size: 16px;
+  color: #f8b237;
+  border-bottom: 1px solid #f8b237;
   cursor: pointer;
 }
 .HL_Navigation li.active {
@@ -60,6 +75,21 @@
   border-bottom: 1px solid #dcdcdc;
   cursor: pointer;
 }
+.HL_Navigation_two li:hover {
+  float: left;
+  width: 110px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 30px;
+  font-size: 16px;
+  color: #f8b237;
+  border-bottom: 1px solid #f8b237;
+  cursor: pointer;
+}
 .HL_Navigation_two li.active {
   color: #f8b237;
   border-bottom: 1px solid #f8b237;
@@ -79,6 +109,22 @@
   text-overflow: ellipsis;
   line-height: 28px;
   color: #787878;
+  font-size: 14px;
+  padding-left: 18px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.HL_Classification div:hover {
+  width: 127px;
+  height: 28px;
+  background: #00a189;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 28px;
+  color: #fff;
   font-size: 14px;
   padding-left: 18px;
   margin-bottom: 8px;

@@ -1,0 +1,168 @@
+/*
+@ project:CC
+@ date:2015-09-19
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .box {
+  height: 195px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  margin-top: 30px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left {
+  height: 195px;
+  width: 435px;
+  padding-right: 10px;
+  border-right: 1px solid #e0e0e0;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .left:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left .pic {
+  float: left;
+  width: 128px;
+  height: 192px;
+}
+.wapper .box .left .pic img,
+.wapper .box .left .pic a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.wapper .box .left .com {
+  width: 285px;
+  float: right;
+}
+.wapper .box .left .com h3 {
+  font-size: 14px;
+  color: #01a189;
+  border-left: 2px solid #01a189;
+  line-height: 100%;
+  padding-left: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.wapper .box .left .com a {
+  display: block;
+  text-indent: 2em;
+  color: #a8a8a8;
+}
+.wapper .box .right {
+  float: left;
+  width: 512px;
+}
+.wapper .box .right .top {
+  height: 85px;
+  padding: 0 0 10px 10px;
+  border-bottom: 1px solid #e0e0e0;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .right .top:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right .top .pic {
+  float: left;
+  width: 130px;
+  height: 85px;
+}
+.wapper .box .right .top .pic img,
+.wapper .box .right .top .pic a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.wapper .box .right .top .com {
+  width: 350px;
+  height: 86px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  float: right;
+}
+.wapper .box .right .top .com h3 {
+  font-size: 14px;
+  color: #01a189;
+  border-left: 2px solid #01a189;
+  line-height: 100%;
+  padding-left: 5px;
+  margin-bottom: 15px;
+}
+.wapper .box .right .top .com a {
+  display: block;
+  text-indent: 2em;
+  color: #a8a8a8;
+}
+.wapper .box .right .bot {
+  padding-top: 10px;
+  border-bottom: none;
+}
+.wapper .list {
+  margin-top: 32px;
+}
+.wapper .list li {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #e5e4e4;
+}
+.wapper .list li h3 {
+  font-size: 14px;
+  color: #01a189;
+  border-left: 2px solid #01a189;
+  line-height: 100%;
+  padding-left: 5px;
+  margin-bottom: 6px;
+}
+.wapper .list li div {
+  position: relative;
+  padding: 10px 0;
+}
+.wapper .list li div img {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -18px;
+  width: 37px;
+  height: 37px;
+}
+.wapper .list li div p {
+  margin-left: 65px;
+}
+.wapper .list li div p a {
+  color: #a2a2a2;
+}

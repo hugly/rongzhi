@@ -1,0 +1,72 @@
+/*
+@ project:CC
+@ date:2015-09-19
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .Screen {
+  margin-top: 30px;
+}
+.wapper .Screen select {
+  width: 94px;
+  height: 22px;
+  margin-right: 5px;
+  color: #787878;
+}
+.wapper .Screen i {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #787878;
+}
+.wapper h3 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #00a089;
+  padding-left: 10px;
+  border-left: 2px solid #00a089;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.wapper .list {
+  width: 918px;
+}
+.wapper .list li {
+  height: 42px;
+  border-bottom: 1px dashed #eae9e9;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .list li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .list li span {
+  line-height: 42px;
+  color: #787878;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .list li .tit {
+  width: 659px;
+}
+.wapper .list li .name {
+  width: 90px;
+  margin-left: 20px;
+}
+.wapper .list li .rep {
+  width: 70px;
+}
+.wapper .list li .pub {
+  width: 79px;
+  text-align: right;
+}

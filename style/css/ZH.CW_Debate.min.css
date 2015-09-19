@@ -1,0 +1,125 @@
+/*
+@ project:CC
+@ date:2015-09-19
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .Screen {
+  margin-top: 30px;
+}
+.wapper .Screen select {
+  width: 94px;
+  height: 22px;
+  margin-right: 5px;
+  color: #787878;
+}
+.wapper .Screen i {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #787878;
+}
+.wapper h3 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #00a089;
+  padding-left: 10px;
+  border-left: 2px solid #00a089;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.wapper .box {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+}
+.wapper .box .title {
+  width: 100%;
+  height: 31px;
+  background: #fafafa;
+  border-bottom: 1px solid #dcdcdc;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .title span {
+  font-size: 14px;
+  float: left;
+  color: #787878;
+  line-height: 31px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .title .tit {
+  width: 676px;
+  margin-left: 33px;
+}
+.wapper .box .title .name {
+  width: 73px;
+  margin-left: 20px;
+}
+.wapper .box .title .rep {
+  width: 70px;
+}
+.wapper .box .title .pub {
+  width: 99px;
+}
+.wapper .box .list {
+  width: 918px;
+}
+.wapper .box .list li {
+  width: 908px;
+  height: 42px;
+  border-bottom: 1px dashed #eae9e9;
+  margin-left: 24px;
+  padding-left: 10px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .list li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list li span {
+  line-height: 42px;
+  color: #787878;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .list li .tit {
+  width: 676px;
+}
+.wapper .box .list li .name {
+  width: 73px;
+  margin-left: 20px;
+}
+.wapper .box .list li .rep {
+  width: 70px;
+}
+.wapper .box .list li .pub {
+  width: 69px;
+  line-height: 20px;
+}
+.wapper .box .list li .pub i {
+  display: block;
+}
+.wapper .box .list .bor {
+  border: none;
+}

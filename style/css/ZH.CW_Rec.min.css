@@ -1,0 +1,204 @@
+/*
+@ project:CC
+@ date:2015-09-19
+*/
+.wapper {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .left {
+  width: 610px;
+  height: 100%;
+  float: left;
+}
+.wapper .left h3 {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  color: #5e5e5e;
+  text-align: center;
+  padding: 0 10%;
+  margin-top: 20px;
+}
+.wapper .left .from {
+  text-align: right;
+  color: #787878;
+  line-height: 38px;
+}
+.wapper .left .picture {
+  width: 100%;
+  height: 358px;
+}
+.wapper .left .picture img {
+  width: 100%;
+  height: 100%;
+}
+.wapper .left .name {
+  line-height: 30px;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #5e5e5e;
+}
+.wapper .left .detail {
+  width: 100%;
+  border-top: 1px solid #dcdcdc;
+  margin-top: 20px;
+}
+.wapper .left .detail p {
+  margin-top: 27px;
+  color: #5e5e5e;
+}
+.wapper .left .detail .edit {
+  text-align: right;
+  margin-top: 45px;
+}
+.wapper .left .share {
+  width: 100%;
+  border-top: 1px solid #dcdcdc;
+  margin-top: 5px;
+  padding-top: 10px;
+  height: 90px;
+}
+.wapper .left .share span {
+  color: #5e5e5e;
+}
+.wapper .left .share a {
+  padding-left: 22px;
+  margin-right: 10px;
+}
+.wapper .left .share .share_wx {
+  background: url("../css/images/share-wx.png") no-repeat 0 center;
+}
+.wapper .left .share .share_f {
+  background: url("../css/images/share-f.png") no-repeat 0 center;
+}
+.wapper .left .share .share_tx {
+  background: url("../css/images/share-tx.png") no-repeat 0 center;
+}
+.wapper .left .share .share_xl {
+  background: url("../css/images/share-xl.png") no-repeat 0 center;
+}
+.wapper .left .share .share_sh {
+  background: url("../css/images/share-sh.png") no-repeat 0 center;
+}
+.wapper .right {
+  width: 340px;
+  float: right;
+  height: 1000px;
+}
+.wapper .right .title {
+  min-height: 1px;
+  zoom: 1;
+  margin-top: 77px;
+}
+.wapper .right .title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .right .title h3 {
+  font-size: 14px;
+  color: #787878;
+  width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #f8b237;
+  float: left;
+}
+.wapper .right .title div {
+  float: right;
+  border-bottom: 1px solid #dcdcdc ;
+  width: 210px;
+  text-align: right;
+  margin-top: 3px;
+}
+.wapper .right ul {
+  min-height: 220px;
+  margin-top: 10px;
+}
+.wapper .right ul li {
+  line-height: 22px;
+  list-style: inside;
+  color: #787878;
+}
+.wapper .right .adv {
+  width: 100%;
+  height: 294px;
+  margin-top: 50px;
+}
+.wapper .right .adv a,
+.wapper .right .adv img {
+  width: 100%;
+  height: 100%;
+}
+.wapper .right .adv_2 {
+  width: 100%;
+  margin-top: 20px ;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .right .adv_2:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .right .adv_2 .left {
+  width: 150px;
+  height: 130px;
+  float: left;
+  position: relative;
+}
+.wapper .right .adv_2 .right {
+  width: 150px;
+  height: 130px;
+  float: right;
+  position: relative;
+}
+.wapper .right .adv_2 a,
+.wapper .right .adv_2 img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.wapper .right .adv_2 i {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+}
