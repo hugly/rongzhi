@@ -29,15 +29,12 @@ module.exports = function(grunt) {
           'style/css/ZH.CW_Vote_three.min.css': 'style/less/ZH.CW_Vote_three.less',
           'style/css/ZH.CW_Rec_two.min.css': 'style/less/ZH.CW_Rec_two.less',
           'style/css/ZH.CW_Debate.min.css': 'style/less/ZH.CW_Debate.less',
-          'style/css/ZH.CW_Debate_two.min.css': 'style/less/ZH.CW_Debate_two.less'
-          'style/css/ZH.CW_Vote_three.min.css': 'style/less/ZH.CW_Vote_three.less',
-          'style/css/ZH.CW_Rec_two.min.css': 'style/less/ZH.CW_Rec_two.less',
-          'style/css/ZH.CW_Debate.min.css': 'style/less/ZH.CW_Debate.less',
           'style/css/ZH.CW_Debate_two.min.css': 'style/less/ZH.CW_Debate_two.less',
           'style/css/ZH.CW_Debate_three.min.css': 'style/less/ZH.CW_Debate_three.less',
           'style/css/ZH.CW_Finance.min.css': 'style/less/ZH.CW_Finance.less',
           'style/css/ZH.BM_CTicket.min.css': 'style/less/ZH.BM_CTicket.less',
-          'style/css/ZH.BM_Pay.min.css': 'style/less/ZH.BM_Pay.less'
+          'style/css/ZH.BM_Pay.min.css': 'style/less/ZH.BM_Pay.less',
+          'style/css/HL.BM_Doctor.min.css': 'style/less/HL.BM_Doctor.less'
 
 
         }
