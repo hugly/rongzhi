@@ -1,0 +1,188 @@
+/*
+@ project:CC
+@ date:2015-09-19
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .pic {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 202px;
+}
+.wapper .pic img {
+  width: 100%;
+  height: 100%;
+}
+.wapper .box .tit {
+  margin-top: 30px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .tit:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .tit h3 {
+  font-size: 14px;
+  color: #009883;
+  border-bottom: 1px solid #7dd473;
+  line-height: 25px;
+  width: 90px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  float: left;
+}
+.wapper .box .tit div {
+  margin-top: 25px;
+  width: 890px;
+  border-bottom: 1px solid #b9b9b9;
+  float: right;
+}
+.wapper .box .list {
+  margin-top: 20px;
+  padding-right: -30px;
+  min-height: 1px;
+  zoom: 1;
+  margin-right: -76px;
+}
+.wapper .box .list:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list li {
+  height: 80px;
+  float: left;
+  margin-right: 77px;
+  width: 243px;
+  border: 1px solid #d8d8d8;
+  padding: 10px 10px 10px  20px;
+  margin-bottom: 15px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .list li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list li .list_right {
+  position: relative;
+}
+.wapper .box .list li .list_right p {
+  color: #787878;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .list li .list_right .name {
+  color: #00957b;
+}
+.wapper .box .list li .list_right div {
+  text-align: right;
+}
+.wapper .box .list li .list_right div a {
+  display: inline-block;
+  width: 62px;
+  height: 17px;
+  color: #fff;
+  text-align: center;
+  line-height: 17px;
+  border-radius: 8px;
+  background: #009883;
+  margin-top: 5px;
+}
+.wapper .box .list li .list_right div .remove {
+  background: #2a6c66;
+}
+.wapper .box .list li .list_right .bin {
+  display: inline-block;
+  width: 29px;
+  height: 17px;
+  background: url("../css/images/bin.png") no-repeat center;
+  color: #fff;
+  padding-left: 15px;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  border-radius: 0;
+}
+.wapper .box .list .ad {
+  background: url("../css/images/ad.png") no-repeat center;
+  cursor: pointer;
+}
+.wapper .box .list li:hover {
+  border-left: 1px solid #009883;
+}
+.wapper .box .det {
+  margin-top: 25px;
+}
+.wapper .box .det div {
+  padding-left: 230px;
+}
+.wapper .box .det div i {
+  font-size: 14px;
+  color: #787878;
+  margin-right: 10px;
+}
+.wapper .box .det .div1 input {
+  width: 80px;
+  height: 34px;
+  border: 1px solid #d6d6d6;
+  margin-right: 22px;
+  padding: 0 26px 0 10px;
+  background: url("../css/images/jt.png") no-repeat 90px center;
+}
+.wapper .box .det .div2 {
+  margin-top: 26px;
+}
+.wapper .box .det .div2 input {
+  width: 152px;
+  height: 34px;
+  border: 1px solid #d6d6d6;
+  margin-right: 22px;
+  padding: 0 26px 0 10px;
+  background: url("../css/images/jt.png") no-repeat 167px center;
+}
+.wapper .box .det .div3 {
+  margin-top: 26px;
+}
+.wapper .box .det .div3 input {
+  width: 252px;
+  height: 34px;
+  border: 1px solid #d6d6d6;
+  margin-right: 22px;
+  padding: 0 26px 0 10px;
+  background: url("../css/images/jt.png") no-repeat 266px center;
+}
+.wapper .box .det .click {
+  margin-top: 15px;
+  margin-left: 70px;
+}
+.wapper .box .det .click a {
+  display: inline-block;
+  width: 127px;
+  height: 29px;
+  background: #19a290;
+  color: #fff;
+  text-align: center;
+  line-height: 29px;
+  border-radius: 15px;
+}

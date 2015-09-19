@@ -1,0 +1,151 @@
+@import "lib.less";
+.wapper{
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  .box{
+    margin-top: 30px;
+    .cf();
+    .left{
+      float: left;
+      width: 220px;
+      .tit{
+        height: 52px;
+        text-align: center;
+        line-height: 52px;
+        color: #009883;
+        font-size: 14px;
+        border: 1px solid #dedede;
+      }
+      ul{
+        padding-top: 5px;
+        li{
+          height: 67px;
+          border: 1px solid #dedede;
+          padding: 18px;
+          margin-bottom: 5px;
+          p{
+            width: 180px;
+            .omit();
+            color: #787878;
+          }
+          .name{
+            color: #00957b;
+          }
+          .app{
+            text-align: right;
+            a{
+              display: inline-block;
+              width: 87px;
+              height: 20px;
+              background: #18a28f;
+              line-height: 20px;
+              text-align: center;
+              color: #fff;
+              border-radius: 8px;
+              .omit();
+            }
+          }
+        }
+        li:hover{
+          background: #009883;
+          p{
+            color: #bbc9c6;
+          }
+          .name{
+            color: #fff;
+          }
+          .app{
+            a{
+              background: #fff;
+              color: #009883;
+            }
+          }
+        }
+        li.active{
+          background: #009883;
+          p{
+            color: #bbc9c6;
+          }
+          .name{
+            color: #fff;
+          }
+          .app{
+            a{
+              background: #fff;
+              color: #009883;
+            }
+          }
+        }
+        .ad{
+          background: url("../css/images/ad.png")no-repeat center;
+          cursor: pointer;
+        }
+        .ad:hover{
+          background: url("../css/images/ad.png")no-repeat center;
+          cursor: pointer;
+        }
+
+      }
+    }
+    .right{
+      float: right;
+      width: 730px;
+      .tit{
+        padding: 9px 0 9px 15px  ;
+        background: #048e7b;
+        span{
+          color: #fff;
+          font-size: 14px;
+          border-left: 3px solid #34c8b4;
+          line-height: 100%;
+          padding-left: 10px;
+        }
+      }
+      .list{
+        margin-top: 25px;
+        li{
+          height: 100px;
+          margin-bottom: 30px;
+          .cf();
+          .pic{
+            float: left;
+            width: 118px;
+            height: 92px;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .time{
+            float: left;
+            width: 360px;
+            height: 25px;
+            background: url("../css/images/time_1.png")no-repeat 0 0;
+            margin-left: 110px;
+            font-size: 14px;
+            color: #fcb853;
+            padding-top: 75px;
+            overflow: hidden;
+          }
+          .State{
+            float: right;
+            line-height: 100px;
+            a{
+              display: inline-block;
+              width: 128px;
+              height: 30px;
+              text-align: center;
+              line-height: 30px;
+              color: #fff;
+              background: #19a290;
+              border-radius: 10px;
+              .omit();
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
