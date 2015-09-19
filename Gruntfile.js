@@ -38,6 +38,7 @@ module.exports = function(grunt) {
           'style/css/ZH.CW_Finance.min.css': 'style/less/ZH.CW_Finance.less',
           'style/css/ZH.BM_CTicket.min.css': 'style/less/ZH.BM_CTicket.less',
           'style/css/ZH.BM_Pay.min.css': 'style/less/ZH.BM_Pay.less',
+          'style/css/HL.BM_Doctor.min.css': 'style/less/HL.BM_Doctor.less',
           'style/css/wz-allexpert.min.css': 'style/less/wz-allexpert.less',
           'style/css/wz-expertdetail.min.css': 'style/less/wz-expertdetail.less'
         }
