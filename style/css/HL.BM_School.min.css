@@ -1,0 +1,152 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .box {
+  margin-top: 30px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right {
+  float: right;
+  width: 664px;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+}
+.wapper .box .right .tit {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .right .tit:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right .tit span {
+  cursor: pointer;
+  float: left;
+  width: 55px;
+  border-bottom: 1px solid #b9b9b9;
+  text-align: center;
+  line-height: 18px;
+  color: #787878;
+}
+.wapper .box .right .tit span.active {
+  color: #009883;
+  border-bottom: 1px solid #bee9b9;
+}
+.wapper .box .right .tit span:hover {
+  color: #009883;
+  border-bottom: 1px solid #bee9b9;
+}
+.wapper .box .right .tit .car_span {
+  float: left;
+  width: 75px;
+  border-bottom: 1px solid #bee9b9;
+  text-align: center;
+  line-height: 18px;
+  color: #009883;
+}
+.wapper .box .right .tit b {
+  float: right;
+  width: 554px;
+  border-bottom: 1px solid #b9b9b9;
+  margin-top: 18px;
+}
+.wapper .box .right .tit .car_b {
+  float: right;
+  width: 589px;
+  border-bottom: 1px solid #b9b9b9;
+  margin-top: 18px;
+}
+.wapper .box .right .name {
+  margin-top: 30px;
+  padding-left: 104px;
+}
+.wapper .box .right .name .add span {
+  font-size: 14px;
+  color: #787878;
+}
+.wapper .box .right .name .add input {
+  margin-right: 5px;
+}
+.wapper .box .right .name .add .inp1 {
+  width: 60px;
+  height: 34px;
+  border: 1px solid #d4d4d4;
+  padding-left: 13px;
+  background: url("../css/images/jt.png") no-repeat 75px center;
+  padding-right: 20px;
+}
+.wapper .box .right .name .add .inp2 {
+  width: 110px;
+  height: 34px;
+  border: 1px solid #d4d4d4;
+  padding-left: 13px;
+  background: url("../css/images/jt.png") no-repeat 127px center;
+  padding-right: 20px;
+}
+.wapper .box .right .name .school_name {
+  margin-top: 15px;
+}
+.wapper .box .right .name .school_name span {
+  font-size: 14px;
+  color: #787878;
+}
+.wapper .box .right .name .school_name input {
+  width: 277px;
+  height: 32px;
+  border: 1px solid #d4d4d4;
+  padding-left: 15px;
+  padding-right: 30px;
+  background: url("../css/images/jt.png") no-repeat 294px center;
+}
+.wapper .box .right .name .po_name {
+  margin-top: 20px;
+}
+.wapper .box .right .name .po_name span {
+  font-size: 14px;
+  color: #787878;
+}
+.wapper .box .right .name .po_name i {
+  color: #373737;
+}
+.wapper .box .right .name .left_1 {
+  margin-left: -28px;
+}
+.wapper .box .right .so {
+  padding-top: 20px;
+  padding-left: 150px;
+}
+.wapper .box .right .so .pay {
+  display: inline-block;
+  width: 127px;
+  height: 29px;
+  line-height: 29px;
+  text-align: center;
+  border-radius: 15px;
+  background: #19a290;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 220px;
+}
+.wapper .box .right .so .Explain {
+  font-size: 14px;
+  color: #009883;
+  text-decoration: underline;
+  margin-right: 30px;
+}

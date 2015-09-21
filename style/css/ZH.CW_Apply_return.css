@@ -1,0 +1,184 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.wapper .box {
+  min-height: 1px;
+  zoom: 1;
+  margin-top: 24px;
+}
+.wapper .box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left {
+  float: left;
+  height: 352px;
+  margin-top: 20px;
+}
+.wapper .box .right {
+  float: right;
+  width: 780px;
+}
+.wapper .box .right .title {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .right .title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right .title span {
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  width: 78px;
+  font-size: 14px;
+  color: #787878;
+  border-bottom: 2px solid #eee;
+  padding-left: 10px;
+}
+.wapper .box .right .title span:hover {
+  border-bottom: 2px solid #f39c00;
+}
+.wapper .box .right .title span.active {
+  border-bottom: 2px solid #f39c00;
+}
+.wapper .box .right .information {
+  margin-top: 23px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #eae9e9;
+}
+.wapper .box .right .information p {
+  font-size: 14px;
+  color: #009882;
+  border-left: 4px solid #009882;
+  padding-left: 10px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+.wapper .box .right .information div span {
+  display: inline-block;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #787878;
+  padding-left: 10px;
+}
+.wapper .box .right .return {
+  margin-top: 23px;
+}
+.wapper .box .right .return p {
+  font-size: 14px;
+  color: #009882;
+  border-left: 4px solid #009882;
+  padding-left: 10px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+.wapper .box .right .return .div1 {
+  margin-top: 10px;
+}
+.wapper .box .right .return .div1 span {
+  display: inline-block;
+  width: 75px;
+  color: #787878;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 22px;
+}
+.wapper .box .right .return .div1 input {
+  width: 44px;
+  height: 22px;
+  border: 1px solid #dcdcdc;
+  padding-left: 5px;
+  background: url("../css/images/jt.png") no-repeat 47px center;
+  padding-right: 15px;
+  margin-right: 15px;
+}
+.wapper .box .right .return .div2 {
+  margin-top: 10px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .right .return .div2:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right .return .div2 span {
+  float: left;
+  display: inline-block;
+  width: 75px;
+  color: #787878;
+  text-align: right;
+  margin-right: 5px;
+}
+.wapper .box .right .return .div2 .show {
+  margin-left: 3px;
+  float: left;
+}
+.wapper .box .right .return .div2 .show div {
+  display: inline-block;
+  min-height: 1px;
+  zoom: 1;
+  width: 70px;
+  margin-right: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .right .return .div2 .show div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right .return .div2 .show div input {
+  float: left;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.wapper .box .right .return .div2 .show div label {
+  float: left;
+  color: #009882;
+  cursor: pointer;
+}
+.wapper .box .right .return .div2 .show textarea {
+  display: block;
+  width: 674px;
+  height: 50px;
+  border: 1px solid #dcdcdc;
+  resize: none;
+  padding: 10px;
+}
+.wapper .box .right .return .div2 .show .sub {
+  margin-top: 20px;
+  display: inline-block;
+  width: 86px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  background: #f8b237;
+  border-radius: 8px;
+}

@@ -1,0 +1,80 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .title {
+  margin-top: 30px;
+  padding: 8px 20px;
+  background: #0d9d89;
+  margin-bottom: 15px;
+}
+.wapper .title a {
+  font-size: 14px;
+  color: #fff;
+}
+.wapper .head {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .head:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .head span {
+  float: left;
+  border-bottom: 2px solid #f7b238;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #999;
+  line-height: 30px;
+  width: 110px;
+}
+.wapper .head b {
+  margin-top: 30px;
+  float: right;
+  border-bottom: 2px solid #ddd;
+  width: 850px;
+}
+.wapper .com {
+  position: relative;
+  padding: 45px 0;
+}
+.wapper .com .left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+  margin-top: -53px;
+  background: url("../../data-images/po.png") no-repeat center;
+}
+.wapper .com .right {
+  width: 835px;
+  margin-left: 145px;
+}
+.wapper .com .right p {
+  color: #aea8a8;
+  line-height: 20px;
+}
+.wapper .com .right .time {
+  color: #787878;
+  font-size: 14px;
+}
+.wapper .com_2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.wapper .com_2 p {
+  text-indent: 2em;
+  padding: 10px 0;
+  color: #aea8a8;
+}

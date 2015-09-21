@@ -1,0 +1,304 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .box {
+  margin-top: 30px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left {
+  float: left;
+  width: 714px;
+}
+.wapper .box .left .div1 {
+  min-height: 1px;
+  zoom: 1;
+  margin-bottom: 2px;
+  background: #fbfbfb;
+}
+.wapper .box .left .div1:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left .div1 .left_left {
+  float: left;
+  width: 113px;
+  padding-top: 25px;
+  padding-left: 20px;
+  color: #787878;
+  font-size: 14px;
+}
+.wapper .box .left .div1 .left_right {
+  float: left;
+  width: 558px;
+  border: 1px solid #dfdfdf;
+  padding-top: 25px;
+  padding-left: 20px;
+  background: #ecf5fc;
+}
+.wapper .box .left .div1 .left_right .list {
+  margin-bottom: 10px;
+}
+.wapper .box .left .div1 .left_right .list .number {
+  padding-left: 83px;
+}
+.wapper .box .left .div1 .left_right .list .number .number_1 {
+  color: #787878;
+  font-size: 14px;
+  line-height: 25px;
+  border-bottom: 1px solid #b5e5b7;
+  margin-right: 10px;
+}
+.wapper .box .left .div1 .left_right .list .number .number_2 {
+  color: #009883;
+  font-size: 14px;
+  cursor: pointer;
+}
+.wapper .box .left .div1 .left_right .list .name {
+  margin-top: 5px;
+  padding-left: 28px;
+}
+.wapper .box .left .div1 .left_right .list .name span {
+  font-size: 14px;
+  color: #009883;
+  margin-right: 23px;
+}
+.wapper .box .left .div1 .left_right .list .name input {
+  width: 310px;
+  height: 31px;
+  border: 1px solid #d5d5d5;
+  padding-left: 12px;
+}
+.wapper .box .left .div1 .left_right .list .pho {
+  margin-left: -14px;
+}
+.wapper .box .left .div1 .left_right .list .eml {
+  margin-left: -8px;
+}
+.wapper .box .left .div1 .left_right .list .mess {
+  margin-top: 15px;
+}
+.wapper .box .left .div1 .left_right .list .mess i {
+  font-size: 14px;
+  color: #009883;
+  margin-right: 23px;
+}
+.wapper .box .left .div1 .left_right .list .mess span {
+  margin-left: 10px;
+  color: #8a8484;
+}
+.wapper .box .left .div1 .left_right .list .id {
+  margin-top: 15px;
+}
+.wapper .box .left .div1 .left_right .list .id span {
+  font-size: 14px;
+  color: #009883;
+  margin-right: 23px;
+}
+.wapper .box .left .div1 .left_right .list .id select {
+  width: 134px;
+  height: 30px;
+  border: 1px solid #d6d7d8;
+  color: #b2b2b2;
+}
+.wapper .box .left .div1 .left_right .list .id input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #d6d7d8;
+  padding-left: 14px;
+  margin-left: 21px;
+}
+.wapper .box .left .div1 .left_right .list .p {
+  margin-left: 23px;
+  color: #a6a7a7;
+  padding-right: 80px;
+}
+.wapper .box .left .div1 .left_right .list .p a {
+  color: #009883;
+  text-decoration: underline;
+}
+.wapper .box .left .div1 .left_right .ad {
+  width: 322px;
+  height: 48px;
+  border: 1px solid #d5d5d5;
+  text-align: center;
+  line-height: 48px;
+  margin-left: 83px;
+  margin-top: 10px;
+  color: #b2b2b2;
+  cursor: pointer;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.wapper .box .left .div1 .left_right .ad i {
+  color: #009883;
+}
+.wapper .box .right {
+  float: right;
+  width: 227px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+.wapper .box .right .box2 .div1 {
+  border-bottom: 1px dashed #a4a3a3;
+  padding-bottom: 15px;
+}
+.wapper .box .right .box2 .div1 .day {
+  color: #666666;
+}
+.wapper .box .right .box2 .div1 .day span {
+  font-size: 14px;
+  color: #666666;
+}
+.wapper .box .right .box2 .div1 .day .add {
+  display: inline-block;
+  width: 170px;
+  text-align: right;
+}
+.wapper .box .right .box2 .div1 .a_name {
+  height: 34px;
+  background: url("../css/images/air_1.png") no-repeat 0px center;
+  line-height: 34px;
+  margin-top: 10px;
+  text-align: right;
+}
+.wapper .box .right .box2 .div1 .a_name i {
+  color: #7dd473;
+  text-decoration: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.wapper .box .right .box2 .div1 .time {
+  text-align: center;
+  color: #4b4c4b;
+  font-size: 14px;
+}
+.wapper .box .right .box2 .div1 .start span {
+  width: 110px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #4b4c4b;
+}
+.wapper .box .right .box2 .div1 .start .span1 {
+  text-align: left;
+}
+.wapper .box .right .box2 .div1 .start .span2 {
+  text-align: right;
+}
+.wapper .box .right .box2 .div1 .Total {
+  margin-top: 15px;
+  text-align: center;
+  color: #9da09c;
+}
+.wapper .box .right .box2 .div1 .Total i {
+  font-size: 17px;
+  color: #fe9248;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.wapper .box .right .box2 .dind {
+  font-size: 14px;
+  color: #7dd473;
+  width: 115px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 25px;
+}
+.wapper .box .right .box2 .sum {
+  font-size: 19px;
+  color: #ffa050;
+  display: inline-block;
+  width: 108px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .right .box2 .sum i {
+  font-size: 16px;
+  color: #707270;
+}
+.wapper .box .right .box2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.wapper .box .right .box2 .pop {
+  color: #009883;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.wapper .box .right .box2 .div2 {
+  color: #919191;
+}
+.wapper .box .right .box2 .div2 .leix {
+  display: inline-block;
+  width: 67px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .right .box2 .div2 .fuhao {
+  display: inline-block;
+  width: 77px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .right .box2 .div2 .mon {
+  display: inline-block;
+  width: 75px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.wapper .box .right .box2 .sub {
+  text-align: center;
+  margin-top: 152px;
+}
+.wapper .box .right .box2 .sub a {
+  display: inline-block;
+  width: 128px;
+  height: 30px;
+  background: #19a290;
+  line-height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,88 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.wapper .box {
+  min-height: 1px;
+  zoom: 1;
+  margin-top: 24px;
+}
+.wapper .box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left {
+  float: left;
+  height: 352px;
+}
+.wapper .box .right {
+  padding: 30px;
+  float: right;
+  width: 710px;
+  border: 1px solid #e5e5e5;
+}
+.wapper .box .right .title {
+  border-bottom: 1px solid #c9c9c9;
+  padding: 5px 0;
+  margin-bottom: 38px;
+}
+.wapper .box .right .title span {
+  font-size: 16px;
+  color: #787878;
+  border-left: 2px solid #00a189;
+  padding-left: 5px;
+  line-height: 100%;
+}
+.wapper .box .right .name {
+  width: 455px;
+  text-align: right;
+  margin-bottom: 16px;
+  position: relative;
+}
+.wapper .box .right .name span {
+  color: #787878;
+}
+.wapper .box .right .name input {
+  width: 174px;
+  height: 20px;
+  border: 1px solid #dfdfdf;
+  padding-left: 15px;
+}
+.wapper .box .right .name .flot {
+  position: absolute;
+  top: 0;
+  left: 212px;
+}
+.wapper .box .right .name textarea {
+  width: 169px;
+  height: 70px;
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  resize: none;
+}
+.wapper .box .right .sub {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.wapper .box .right .sub a {
+  display: inline-block;
+  width: 85px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  border-radius: 15px;
+  background: #f8b237;
+  margin-right: 5px;
+}
+.wapper .box .right .sub .Cancel {
+  background: #009883;
+}

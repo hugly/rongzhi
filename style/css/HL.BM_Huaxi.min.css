@@ -1,0 +1,162 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .head {
+  margin-top: 30px;
+}
+.wapper .head .tit span {
+  display: inline-block;
+  width: 60px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #bfc0be;
+  background: #fff;
+  cursor: pointer;
+}
+.wapper .head .tit span.active {
+  background: #7dd473;
+  color: #fff;
+}
+.wapper .head .tit span:hover {
+  background: #7dd473;
+  color: #fff;
+}
+.wapper .head .so {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .head .so:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .head .so input {
+  float: left;
+  width: 812px;
+  height: 47px;
+  border: 1px solid #7dd473;
+  padding-left: 60px;
+  background: url("../css/images/so.1.png") no-repeat 15px center;
+}
+.wapper .head .so input ::-moz-placeholder {
+  color: #c9efc5;
+}
+.wapper .head .so input::-webkit-input-placeholder {
+  color: #c9efc5;
+}
+.wapper .head .so a {
+  float: right;
+  width: 104px;
+  height: 47px;
+  border: 1px solid #7dd473;
+  text-align: center;
+  line-height: 47px;
+  color: #fff;
+  background: #7dd473;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .title {
+  background: #048e7b;
+  margin-top: 27px;
+  padding: 12px 20px;
+}
+.wapper .title p {
+  padding-left: 10px;
+  color: #fff;
+  border-left: 2px solid #34c8b4;
+  line-height: 100%;
+}
+.wapper .list {
+  border-bottom: 1px solid #ccc;
+}
+.wapper .list li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .list li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .list li img {
+  width: 134px;
+  height: 134px;
+  float: left;
+}
+.wapper .list li .attr {
+  float: left;
+  margin-left: 25px;
+  width: 510px;
+  margin-top: 15px;
+}
+.wapper .list li .attr .name {
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  padding: 2px 0;
+  border-bottom: 4px solid #f7b91c;
+  width: 208px;
+  color: #a8a5a5;
+  margin-bottom: 15px;
+}
+.wapper .list li .attr .name i {
+  margin-right: 20px;
+}
+.wapper .list li .attr p {
+  display: inline-block;
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .list li .attr .color {
+  color: #009883;
+}
+.wapper .list li .time {
+  float: left;
+  margin-left: 50px;
+  width: 220px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.wapper .list li .time div {
+  margin-top: 10px;
+}
+.wapper .list li .time div i {
+  font-size: 13px;
+  color: #787878;
+}
+.wapper .list li .time div a {
+  display: inline-block;
+  width: 53px;
+  height: 14px;
+  background: #009883;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 14px;
+  margin-left: 12px;
+}
