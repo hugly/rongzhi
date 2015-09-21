@@ -1,0 +1,102 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.wapper .box {
+  min-height: 1px;
+  zoom: 1;
+  margin-top: 24px;
+}
+.wapper .box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left {
+  float: left;
+  height: 352px;
+  margin-top: 20px;
+}
+.wapper .box .right {
+  float: right;
+  width: 780px;
+}
+.wapper .box .right .title {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .right .title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right .title span {
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  width: 78px;
+  font-size: 14px;
+  color: #787878;
+  border-bottom: 2px solid #eee;
+  padding-left: 10px;
+}
+.wapper .box .right .title span:hover {
+  border-bottom: 2px solid #f39c00;
+}
+.wapper .box .right .title span.active {
+  border-bottom: 2px solid #f39c00;
+}
+.wapper .box .right .list_box {
+  margin-top: 12px;
+}
+.wapper .box .right .list_box .list li {
+  padding: 15px;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 10px;
+  position: relative;
+}
+.wapper .box .right .list_box .list li div span {
+  display: inline-block;
+  width: 240px;
+  color: #54ae9e;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .right .list_box .list li div span i {
+  color: #787878;
+}
+.wapper .box .right .list_box .list li b {
+  font-size: 14px;
+  color: #f39c00;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  margin-top: -15px;
+}
+.wapper .box .right .list_box .list li a {
+  display: inline-block;
+  width: 86px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  background: #f8b237;
+  line-height: 20px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
