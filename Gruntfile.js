@@ -17,18 +17,31 @@ module.exports = function(grunt) {
         files: {
           'style/css/reset.min.css': 'style/less/reset.less',
           'style/css/common.css': 'style/less/common.less',
-          'style/css/HL.Rec.min.css': 'style/less/HL.Rec.less',
+          'style/css/ZH.CW_Rec.min.css': 'style/less/ZH.CW_Rec.less',
           'style/css/ZH.CW.min.css': 'style/less/ZH.CW.less',
           'style/css/HL.News.min.css': 'style/less/HL.News.less',
+          'style/css/HL.min.css': 'style/less/HL.less',
           'style/css/HL.Message.min.css': 'style/less/HL.Message.less',
           'style/css/ZH.CW_Survey.min.css': 'style/less/ZH.CW_Survey.less',
           'style/css/ZH.CW_Survey_two.min.css': 'style/less/ZH.CW_Survey_two.less',
           'style/css/ZH.CW.Notice.min.css': 'style/less/ZH.CW.Notice.less',
           'style/css/ZH.CW_Vote.min.css': 'style/less/ZH.CW_Vote.less',
           'style/css/ZH.CW_Vote_two.min.css': 'style/less/ZH.CW_Vote_two.less',
-          'style/css/ZH.CW_Vote_three.min.css': 'style/less/ZH.CW_Vote_three.less'
-
-
+          'style/css/ZH.CW_Vote_three.min.css': 'style/less/ZH.CW_Vote_three.less',
+          'style/css/ZH.CW_Rec_two.min.css': 'style/less/ZH.CW_Rec_two.less',
+          'style/css/ZH.CW_Debate.min.css': 'style/less/ZH.CW_Debate.less',
+          'style/css/ZH.CW_Debate_two.min.css': 'style/less/ZH.CW_Debate_two.less',
+          'style/css/wz-list.min.css': 'style/less/wz-list.less',
+          'style/css/wz-mymessage.min.css': 'style/less/wz-mymessage.less',
+          'style/css/wz-mymessagedetail.min.css': 'style/less/wz-myssagedetail.less',
+          'style/css/ZH.CW_Debate_three.min.css': 'style/less/ZH.CW_Debate_three.less',
+          'style/css/ZH.CW_Finance.min.css': 'style/less/ZH.CW_Finance.less',
+          'style/css/ZH.BM_CTicket.min.css': 'style/less/ZH.BM_CTicket.less',
+          'style/css/ZH.BM_Pay.min.css': 'style/less/ZH.BM_Pay.less',
+          'style/css/HL.BM_Doctor.min.css': 'style/less/HL.BM_Doctor.less',
+          'style/css/wz-allexpert.min.css': 'style/less/wz-allexpert.less',
+          'style/css/wz-expertdetail.min.css': 'style/less/wz-expertdetail.less',
+          'style/css/lw-info.min.css': 'style/less/lw-info.less'
         }
       }
     },

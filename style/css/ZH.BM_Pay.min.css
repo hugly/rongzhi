@@ -1,0 +1,230 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .pay {
+  margin-top: 30px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .pay:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .pay .left {
+  width: 715px;
+  float: left;
+}
+.wapper .pay .left .Prompt {
+  width: 685px;
+  padding: 5px 0  5px 30px;
+  border: 1px solid #f7b33a;
+  background: url("../css/images/con_1.png") no-repeat 5px center;
+  background: #f8fcec;
+  color: #787878;
+}
+.wapper .pay .left .Prompt i {
+  color: #f7b238;
+}
+.wapper .pay .left .time {
+  margin-top: 30px;
+  width: 100%;
+  background: #f7f7f7;
+  min-height: 1px;
+  zoom: 1;
+  padding-top: 5px;
+}
+.wapper .pay .left .time:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .pay .left .time span {
+  float: left;
+  line-height: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: center;
+  color: #787878;
+}
+.wapper .pay .left .time span i {
+  display: block;
+  color: #f7b33a;
+}
+.wapper .pay .left .time span .col {
+  color: #787878;
+}
+.wapper .pay .left .time .start_time {
+  width: 140px;
+}
+.wapper .pay .left .time .start_add {
+  width: 155px;
+  line-height: 20px;
+}
+.wapper .pay .left .time .air_show {
+  background: url("../css/images/air.png") no-repeat 123px 10px;
+}
+.wapper .pay .left .time .air {
+  width: 210px;
+}
+.wapper .pay .left .pac {
+  width: 100%;
+  height: 30px;
+  background: #f7f7f7;
+}
+.wapper .pay .left .pac div {
+  margin-left: 22px;
+  width: 653px;
+  border-bottom: 1px solid #8d8f8f;
+  overflow: hidden;
+}
+.wapper .pay .left .pac div .sum {
+  background: #eae8e8;
+  color: #a5a5a5;
+  margin-right: 72px;
+}
+.wapper .pay .left .pac div .name {
+  color: #19a290;
+}
+.wapper .pay .left .pac div .name i {
+  color: #787878;
+}
+.wapper .pay .left .People {
+  width: 713px;
+  border: 1px solid #dbd9d9;
+  margin-top: 30px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .pay .left .People:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .pay .left .People .left {
+  text-align: center;
+  width: 134px;
+  height: 98px;
+  border-right: 1px solid #dbd9d9;
+  line-height: 98px;
+  float: left;
+  color: #787878;
+}
+.wapper .pay .left .People .right {
+  float: left;
+  padding-left: 10px;
+  width: 568px;
+  height: 98px;
+  background: #ecf5fc;
+}
+.wapper .pay .left .People .right p {
+  line-height: 33px;
+  color: #787878;
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .pay .left .People .right p i {
+  margin-right: 15px;
+}
+.wapper .pay .left .People .right p span {
+  margin-right: 5px;
+}
+.wapper .pay .right .box {
+  padding: 20px 20px;
+  width: 210px;
+  min-height: 243px;
+  float: right;
+  border: 1px solid #e0dddd;
+}
+.wapper .pay .right .box .dind {
+  font-size: 14px;
+  color: #7dd473;
+  width: 115px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 25px;
+}
+.wapper .pay .right .box .sum {
+  font-size: 19px;
+  color: #ffa050;
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .pay .right .box .sum i {
+  font-size: 16px;
+  color: #707270;
+}
+.wapper .pay .right .box p {
+  width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.wapper .pay .right .box .pop {
+  color: #009883;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.wapper .pay .right .box div {
+  color: #919191;
+}
+.wapper .pay .right .box div .leix {
+  display: inline-block;
+  width: 67px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .pay .right .box div .fuhao {
+  display: inline-block;
+  width: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .pay .right .box div .mon {
+  display: inline-block;
+  width: 75px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: right;
+}

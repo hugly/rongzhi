@@ -1,0 +1,50 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .input {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.wapper .input i {
+  margin-right: 34px;
+  font-size: 14px;
+  color: #787878;
+  margin-left: 10px;
+}
+.wapper .input input {
+  border: 1px solid #d4d4d4;
+  padding: 0 50px 0 10px;
+  width: 269px;
+  height: 32px;
+  margin-right: 35px;
+  line-height: 32px;
+  background: url("../css/images/jt.png") no-repeat 296px center;
+}
+.wapper table {
+  width: 100%;
+  margin-top: 30px;
+}
+.wapper table tr {
+  height: 46px;
+  color: #787878;
+}
+.wapper table tr td {
+  width: 25%;
+  text-align: center;
+  border: 1px solid #dad8d8;
+}
+.wapper table tr .td1 {
+  background: #f0f4fb;
+}
+.wapper table .tr1 {
+  background: #009883;
+  color: #fff;
+  height: 26px;
+}
