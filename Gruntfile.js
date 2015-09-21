@@ -42,9 +42,6 @@ module.exports = function(grunt) {
           'style/css/wz-allexpert.min.css': 'style/less/wz-allexpert.less',
           'style/css/wz-expertdetail.min.css': 'style/less/wz-expertdetail.less',
           'style/css/lw-info.min.css': 'style/less/lw-info.less'
-          'style/css/HL.BM_Doctor.min.css': 'style/less/HL.BM_Doctor.less'
-
-
         }
       }
     },
