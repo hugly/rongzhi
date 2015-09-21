@@ -1,0 +1,86 @@
+@import "lib.less";
+.wapper{
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  .box{
+    .cf();
+    margin-top: 24px;
+    .left{
+      float: left;
+      height: 352px;
+      margin-top: 20px;
+    }
+    .right{
+      float: right;
+      width: 780px;
+      .title{
+        .cf();
+        span{
+          cursor: pointer;
+          float: left;
+          display: inline-block;
+          width: 78px;
+          font-size: 14px;
+          color: #787878;
+          border-bottom: 2px solid #eee;
+          padding-left: 10px;
+        }
+        span:hover{
+          border-bottom: 2px solid #f39c00;
+        }
+        span.active{
+          border-bottom: 2px solid #f39c00;
+        }
+      }
+      .list_box{
+        margin-top: 12px;
+        .list{
+          li{
+            padding: 15px;
+            border: 1px solid #dfdfdf;
+            margin-bottom: 10px;
+            position: relative;
+            div{
+              span{
+                display: inline-block;
+                width: 240px;
+                color: #54ae9e;
+                .omit();
+                i{
+                  color: #787878;
+                }
+              }
+
+            }
+            b{
+              font-size: 14px;
+              color: #f39c00;
+              position: absolute;
+              top: 50%;
+              right: 30px;
+              margin-top: -15px;
+            }
+            a{
+              display: inline-block;
+              width: 86px;
+              height: 20px;
+              text-align: center;
+              font-size: 14px;
+              background: #f8b237;
+              line-height: 20px;
+              color: #fff;
+              position: absolute;
+              top: 50%;
+              right: 20px;
+              margin-top: 12px;
+              border-radius: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
