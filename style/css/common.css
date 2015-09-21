@@ -177,6 +177,17 @@ body {
   color: #fff;
   text-align: center;
 }
+.left-silder {
+  float: left;
+  width: 160px;
+  height: auto;
+  position: relative;
+}
+.left-silder .left-list {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
 .consultation {
   width: 100%;
   height: 100%;
