@@ -1,0 +1,494 @@
+/*
+@ project:CC
+@ date:2015-09-22
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .box {
+  margin-top: 30px;
+  border: 1px solid #bdbdbd;
+  width: 100%;
+}
+.wapper .box .title {
+  padding-top: 12px;
+  padding-left: 12px;
+}
+.wapper .box .title a {
+  font-size: 14px;
+  color: #777;
+}
+.wapper .box .title a.color {
+  color: #26a08b;
+}
+.wapper .box .State {
+  padding-left: 12px;
+  padding-top: 12px;
+}
+.wapper .box .State select {
+  width: 57px;
+  height: 18px;
+  border: 1px solid #e0e0e0;
+  color: #797979;
+  margin-right: 33px;
+}
+.wapper .box .State .name {
+  color: #787878;
+  margin-right: 12px;
+}
+.wapper .box .State .add {
+  display: inline-block;
+  width: 57px;
+  height: 18px;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  line-height: 18px;
+  color: #787878;
+  margin-right: 5px;
+}
+.wapper .box .State i {
+  background: #54afa0;
+  color: #fff;
+  padding: 0 5px;
+}
+.wapper .box .State b {
+  display: inline-block;
+  width: 17px;
+  height: 9px;
+  background: url("../css/images/h1.png") no-repeat center;
+}
+.wapper .box .day {
+  margin-top: 30px;
+  padding-left: 20px;
+  color: #616161;
+}
+.wapper .box .day .add {
+  width: 475px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+.wapper .box .day .add .attr {
+  font-size: 16px;
+  color: #54aea4;
+}
+.wapper .box .list {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .list:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list .left {
+  float: left;
+  width: 490px;
+  border-right: 1px solid #ccc;
+}
+.wapper .box .list .left .box_time {
+  position: relative;
+  padding-left: 50px;
+}
+.wapper .box .list .left .box_time .time {
+  overflow: hidden;
+  height: 51px;
+  position: relative;
+  border-top: 1px solid #bcb8b9;
+  border-bottom: 1px solid #bcb8b9;
+  box-sizing: border-box;
+}
+.wapper .box .list .left .box_time .time ul {
+  height: 49px;
+  width: 405px;
+  position: absolute;
+  left: 0;
+}
+.wapper .box .list .left .box_time .time ul li {
+  width: 80px;
+  height: 49px;
+  float: left;
+  text-align: center;
+  border: 1px solid #bcb8b9;
+  color: #53ae9f;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+.wapper .box .list .left .box_time .time ul li span {
+  display: inline-block;
+  width: 72px;
+  line-height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .list .left .box_time .time ul li .span_1 {
+  margin-top: 8px;
+}
+.wapper .box .list .left .box_time a {
+  position: absolute;
+  top: 0;
+  border: 1px solid #bcb8b9;
+  width: 37px;
+  height: 49px;
+  z-index: 5;
+}
+.wapper .box .list .left .box_time .left_left {
+  left: 12px;
+  background: url("../css/images/jt_2.png") no-repeat 18px center #ffffff;
+}
+.wapper .box .list .left .box_time .right_right {
+  right: 0;
+  background: url("../css/images/jt_2.png") no-repeat -7px center #ffffff;
+  border-right: none;
+}
+.wapper .box .list .left .Screening {
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 45px;
+  color: #53ae9f;
+  background: url("../css/images/shaixuan.png") no-repeat 450px center;
+}
+.wapper .box .list .left .Screening span {
+  cursor: pointer;
+}
+.wapper .box .list .left .head {
+  margin-top: 18px;
+}
+.wapper .box .list .left .head span {
+  font-size: 14px;
+  color: #787878;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .list .left .head .Number {
+  width: 70px;
+  padding-left: 15px;
+}
+.wapper .box .list .left .head .Start {
+  width: 110px;
+}
+.wapper .box .list .left .head .Time {
+  width: 65px;
+  text-align: center;
+}
+.wapper .box .list .left .head .Money {
+  margin-left: 28px;
+  width: 80px;
+}
+.wapper .box .list .left .head .Explain {
+  width: 78px;
+  color: #53ae9f;
+  cursor: pointer;
+}
+.wapper .box .list .left .list_list li {
+  border-bottom: 1px solid #bab6b7;
+  padding: 20px 0;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .list .left .list_list li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list .left .list_list li span {
+  font-size: 14px;
+  color: #464445;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  float: left;
+}
+.wapper .box .list .left .list_list li .Number {
+  width: 70px;
+  padding-left: 15px;
+}
+.wapper .box .list .left .list_list li .Start {
+  width: 83px;
+}
+.wapper .box .list .left .list_list li .Time {
+  width: 120px;
+  text-align: center;
+}
+.wapper .box .list .left .list_list li .Money {
+  font-size: 12px;
+  width: 162px;
+  color: #cdcdcd;
+  margin-top: 2px;
+  margin-left: 11px;
+}
+.wapper .box .list .left .list_list li .Money div {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .list .left .list_list li .Money div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list .left .list_list li .Money div i {
+  float: left;
+}
+.wapper .box .list .left .list_list li .Money div i b {
+  color: #f5b642;
+}
+.wapper .box .list .left .list_list li .Money div i .leix {
+  color: #959394;
+  margin-right: 5px;
+}
+.wapper .box .list .left .list_list li .Money div input {
+  float: left;
+  background: #ccc;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+.wapper .box .list .right {
+  float: left;
+  width: 489px;
+}
+.wapper .box .list .right .box_time {
+  position: relative;
+  padding-left: 38px;
+  padding-right: 12px;
+}
+.wapper .box .list .right .box_time .time {
+  overflow: hidden;
+  height: 51px;
+  position: relative;
+  border-top: 1px solid #bcb8b9;
+  border-bottom: 1px solid #bcb8b9;
+  box-sizing: border-box;
+}
+.wapper .box .list .right .box_time .time ul {
+  height: 49px;
+  width: 405px;
+  position: absolute;
+  left: 0;
+}
+.wapper .box .list .right .box_time .time ul li {
+  width: 80px;
+  height: 49px;
+  float: left;
+  text-align: center;
+  border: 1px solid #bcb8b9;
+  color: #53ae9f;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+.wapper .box .list .right .box_time .time ul li span {
+  display: inline-block;
+  width: 72px;
+  line-height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .list .right .box_time .time ul li .span_1 {
+  margin-top: 8px;
+}
+.wapper .box .list .right .box_time a {
+  position: absolute;
+  top: 0;
+  border: 1px solid #bcb8b9;
+  width: 37px;
+  height: 49px;
+  z-index: 5;
+}
+.wapper .box .list .right .box_time .left_left {
+  left: -1px;
+  background: url("../css/images/jt_2.png") no-repeat 18px center #ffffff;
+}
+.wapper .box .list .right .box_time .right_right {
+  right: 9px;
+  background: url("../css/images/jt_2.png") no-repeat -7px center #ffffff;
+}
+.wapper .box .list .right .Screening {
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 45px;
+  color: #53ae9f;
+  background: url("../css/images/shaixuan.png") no-repeat 450px center;
+}
+.wapper .box .list .right .Screening span {
+  cursor: pointer;
+}
+.wapper .box .list .right .head {
+  margin-top: 18px;
+}
+.wapper .box .list .right .head span {
+  font-size: 14px;
+  color: #787878;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .list .right .head .Number {
+  width: 70px;
+  padding-left: 15px;
+}
+.wapper .box .list .right .head .Start {
+  width: 110px;
+}
+.wapper .box .list .right .head .Time {
+  width: 65px;
+  text-align: center;
+}
+.wapper .box .list .right .head .Money {
+  margin-left: 28px;
+  width: 80px;
+}
+.wapper .box .list .right .head .Explain {
+  width: 78px;
+  color: #53ae9f;
+  cursor: pointer;
+}
+.wapper .box .list .right .list_list li {
+  border-bottom: 1px solid #bab6b7;
+  padding: 20px 0;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .list .right .list_list li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list .right .list_list li span {
+  font-size: 14px;
+  color: #464445;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  float: left;
+}
+.wapper .box .list .right .list_list li .Number {
+  width: 70px;
+  padding-left: 15px;
+}
+.wapper .box .list .right .list_list li .Start {
+  width: 83px;
+}
+.wapper .box .list .right .list_list li .Time {
+  width: 120px;
+  text-align: center;
+}
+.wapper .box .list .right .list_list li .Money {
+  font-size: 12px;
+  width: 162px;
+  color: #cdcdcd;
+  margin-top: 2px;
+  margin-left: 11px;
+}
+.wapper .box .list .right .list_list li .Money div {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .list .right .list_list li .Money div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list .right .list_list li .Money div i {
+  float: left;
+}
+.wapper .box .list .right .list_list li .Money div i b {
+  color: #f5b642;
+}
+.wapper .box .list .right .list_list li .Money div i .leix {
+  color: #959394;
+  margin-right: 5px;
+}
+.wapper .box .list .right .list_list li .Money div input {
+  float: left;
+  background: #ccc;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+.wapper .box .book {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+.wapper .box .book .go {
+  margin-bottom: 10px;
+}
+.wapper .box .book .go span {
+  margin-right: 3px;
+  color: #606060;
+}
+.wapper .box .book .go .go_1 {
+  background: #009884;
+  color: #fff;
+  padding: 2px;
+}
+.wapper .box .book .go .go_2 {
+  background: #a1a5a6;
+  color: #fff;
+  padding: 2px;
+}
+.wapper .box .book .go .name {
+  color: #a1de99;
+}
+.wapper .box .book .sum {
+  position: absolute;
+  top: 50%;
+  right: 360px;
+  margin-top: -15px;
+  font-size: 17px;
+  color: #4f4d4e;
+}
+.wapper .box .book .sum i {
+  color: #fabb5c;
+  font-size: 20px;
+}
+.wapper .box .book .sub {
+  display: inline-block;
+  width: 146px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background: #009883;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -23px;
+  right: 110px;
+  font-size: 19px;
+}
