@@ -1,0 +1,420 @@
+/*
+@ project:CC
+@ date:2015-09-22
+*/
+.search-box {
+  width: 880px;
+  margin: 20px 0;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+  padding-left: 75px;
+}
+.search-box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.search-box .search-pannle {
+  float: left;
+  width: 650px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+  display: inline-block;
+}
+.search-box .search-pannle:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.search-box .search-pannle .select-box {
+  float: left;
+  display: inline;
+  width: 100px;
+  overflow: hidden;
+}
+.search-box .search-pannle .select-box select {
+  background-color: #fff;
+  border: 1px solid #d0d0d0;
+  height: 32px;
+  border-radius: 0;
+}
+.search-box .search-pannle b {
+  float: left;
+  width: 20px;
+  height: 20px;
+  padding: 5px 0;
+  background: transparent url("images/lw.png") no-repeat 0 -18px;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+  text-align: right;
+}
+.search-box .search-pannle b i {
+  display: inline-block;
+  width: 0;
+  height: 16px;
+  margin-top: 2px;
+  border-left: 1px solid #d0d0d0;
+}
+.search-box .search-pannle input {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+  width: 380px;
+  padding: 8px;
+  border: 1px solid #d0d0d0;
+  border-left: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.search-box .search-pannle a.search-btn {
+  float: left;
+  margin-left: 10px;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  background-color: #0d9d89;
+}
+.search-box a.my-btn {
+  float: left;
+  width: 160px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  background-color: #84d67a;
+}
+.box {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .news-box1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .news-box1 .silder-title {
+  width: 978px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .silder-title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .silder-title a {
+  float: left;
+  width: 130px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  position: relative;
+  font-weight: bold;
+}
+.box .news-box1 .silder-title a b {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #ccc;
+}
+.box .news-box1 .silder-title a.active {
+  color: #0c9c88;
+  background-color: #fff;
+}
+.box .news-box1 .silder-title a.active b {
+  border-top-color: #0c9c88;
+}
+.box .news-box1 .silder-title a:hover {
+  color: #0c9c88;
+  background-color: #fff;
+}
+.box .news-box1 .silder-title a:hover b {
+  border-top-color: #0c9c88;
+}
+.box .news-box1 .newest-list {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.box .news-box1 .newest-list ul {
+  width: 990px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .newest-list ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .newest-list ul li {
+  float: left;
+  width: 278px;
+  height: 140px;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box .news-box1 .newest-list ul li .title {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .newest-list ul li .title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .newest-list ul li .title h3 {
+  float: left;
+  width: 218px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #009f88;
+}
+.box .news-box1 .newest-list ul li .title a {
+  float: right;
+  display: none;
+}
+.box .news-box1 .newest-list ul li .title a.keep {
+  display: none;
+  width: 60px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #f7b642;
+  color: #fff;
+  margin-top: 7px;
+}
+.box .news-box1 .newest-list ul li .title a.cancelkeep {
+  display: block;
+  color: #c00;
+  line-height: 40px;
+}
+.box .news-box1 .newest-list ul li .newsbox {
+  margin-top: 10px;
+  height: 88px;
+  overflow: hidden;
+}
+.box .news-box1 .newest-list ul li .newsbox p {
+  line-height: 22px;
+}
+.box .news-box1 .posit {
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .posit:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .posit .left-silder {
+  float: left;
+  width: 258px;
+  border: 1px solid #ccc;
+}
+.box .news-box1 .posit .left-silder ul {
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .posit .left-silder ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .posit .left-silder ul li {
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px 0 10px;
+  width: 228px;
+  border-bottom: 1px solid #ccc;
+  background: #f0f0f0 url("images/lw.png") no-repeat 238px -40px;
+  cursor: pointer;
+}
+.box .news-box1 .posit .left-silder ul li:last-child {
+  border-bottom: none;
+}
+.box .news-box1 .posit .left-silder ul li:hover,
+.box .news-box1 .posit .left-silder ul li.active {
+  background-position: 238px 8px;
+  background-color: #009f88;
+  color: #fff;
+}
+.box .news-box1 .posit .right-silder {
+  float: left;
+  width: 678px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative;
+}
+.box .news-box1 .posit .right-silder .silder-list {
+  display: none;
+  width: 100%;
+  position: relative;
+}
+.box .news-box1 .posit .right-silder .silder-list ul {
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .posit .right-silder .silder-list ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .posit .right-silder .silder-list ul li {
+  float: left;
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .posit .right-silder .silder-list ul li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .posit .right-silder .silder-list ul li h3 {
+  float: left;
+  width: 100%;
+  color: #0d9d89;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.box .news-box1 .posit .right-silder .silder-list ul li a {
+  cursor: pointer;
+  float: left;
+  color: #333333;
+  height: 30px;
+  line-height: 30px;
+  padding: 2px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box .news-box1 .posit .right-silder .silder-list ul li a:hover,
+.box .news-box1 .posit .right-silder .silder-list ul li a.active {
+  background-color: #84d67a;
+  color: #fff;
+}
+.box .news-box1 .person {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.box .news-box1 .person ul {
+  width: 990px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .person ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .person ul li {
+  float: left;
+  width: 318px;
+  height: 110px;
+  margin: 0 10px 10px 0;
+  border: 1px solid #ccc;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .news-box1 .person ul li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .news-box1 .person ul li img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.box .news-box1 .person ul li .right-list {
+  float: left;
+  width: 188px;
+  height: 90px;
+  padding: 10px;
+}
+.box .news-box1 .person ul li .right-list p {
+  line-height: 22px;
+  width: 100%;
+  height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.box .news-box1 .person ul li a.keep {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 60px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #f7b642;
+  color: #fff;
+}
