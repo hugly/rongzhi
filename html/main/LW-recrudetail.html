@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../style/css/reset.min.css">
+    <link rel="stylesheet" href="../../style/css/common.css">
+    <link rel="stylesheet" href="../../style/css/lw-leftorright.min.css">
+</head>
+<body>
+<!--引用公共头部部分-->
+@@include("../common/nav_common.html",{"title":"劳务信息","img":"../../data-images/lw.jpg"})
+<!--中间公共部分-->
+<div class="w980">
+    <!--搜索栏部分-->
+    <div class="search-box">
+        <div class="search-pannle">
+            <div class="select-box">
+                <select>
+                    <option>我要用工</option>
+                    <option>我要招工我要招工我要招工我要招工</option>
+                    <option>我要用工</option>
+                </select>
+            </div>
+            <b><i></i></b>
+            <input type="text" placeholder="请输入要搜索的信息">
+            <a href="javascript:;" class="search-btn">搜索</a>
+        </div>
+        <a href="javascript:;" class="my-btn">我的劳务信息</a>
+    </div>
+    <!--最新工作需求-->
+    <div class="box">
+        <!--左侧导航栏部分-->
+        @@include("../common/left-silder.html")
+        <!--右侧部分-->
+        <div class="right-silder">
+            <div class="list4">
+                <h3>招工信息</h3>
+                <div class="content">
+                    <div class="list">
+                        <span>职位：营业员/店长</span>
+                    </div>
+                    <div class="list">
+                        <span>招聘人数：2人</span>
+                    </div>
+                    <div class="list">
+                        <span>工作经验要求：2年</span>
+                    </div>
+                    <div class="list">
+                        <span>工作地点：甘肃xx市</span>
+                    </div>
+                    <div class="list">
+                        <span>职位：营业员/店长</span>
+                    </div>
+                    <div class="list biglist">
+                        <span>岗位要求：</span>
+                        <p>在网页开发社区有个荒谬的信条——CSS是实现动画效果的最好工具。这使得许多开发者不得不放弃所有基于JavaScript的动画。因而导致 1）强迫他们自己不得不去捣鼓错综复杂的的UI和样式表关系 2)舍弃对IE8和IE9的支持 3）放弃那些仅仅被JavaScript支持的美妙的动态设计。</p>
+                    </div>
+                    <a href="javascript:;" class="modify-btn">修改</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

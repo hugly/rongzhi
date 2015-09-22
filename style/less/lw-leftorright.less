@@ -1,0 +1,136 @@
+@import "lib.less";
+
+//搜索栏部分
+.search-box{ width: 880px; margin: 20px 0; position: relative; .cf(); padding-left: 75px;
+  .search-pannle{ float: left; width: 650px; position: relative; .cf(); display: inline-block;
+    .select-box{ float: left; display: inline; width:100px; overflow: hidden;
+      select{ background-color: #fff; border: 1px solid #d0d0d0; height: 32px; border-radius: 0;}
+    }
+    b{ float: left; width: 20px; height: 20px; padding:5px 0; .bg("lw.png",no-repeat,0 -18px); border-top: 1px solid #d0d0d0; border-bottom: 1px solid #d0d0d0;
+      text-align: right;
+      i{ display: inline-block; width: 0; height: 16px; margin-top: 2px; border-left: 1px solid #d0d0d0;}
+    }
+    input{ float: left; height: 14px; line-height: 14px; width: 380px; padding: 8px; border: 1px solid #d0d0d0; border-left: none; border-bottom-right-radius: 5px; border-top-right-radius: 5px; }
+    a.search-btn{ float: left; margin-left: 10px; width: 100px; height: 32px; line-height: 32px; text-align: center; color: #fff; background-color: #0d9d89;}
+  }
+  a.my-btn{ float: left; width: 160px; height: 32px; line-height: 32px; text-align: center; color: #fff; background-color: #84d67a; }
+}
+
+.box{ width: 100%; height: auto; position: relative;
+  .right-silder{ float: left; margin-left: 20px; width: 800px; position: relative;
+    .list1{ width: 100%; height: auto; position: relative;
+      h3{ border-left: 3px solid #7dd473; color: #009883; font-size: 16px; padding-left: 10px; margin: 10px 0; height: 14px; line-height: 18px;}
+      .content{ width: 100%; height: auto; padding: 20px; box-sizing: border-box; position: relative; .cf();
+        div{ float: left; margin: 10px 0; position: relative; .cf();
+          span{ float: left; width: 80px; height: 30px; line-height: 30px; text-align: right; .omit(); margin-right: 10px;}
+          input{ float: left; height: 14px; line-height: 14px; padding: 7px; border: 1px solid #ccc;}
+          select{ float: left; border: 1px solid #ccc;}
+          textarea{ float: left; border: 1px solid #ccc; resize: none; width: 640px; height: 140px; padding: 10px;}
+        }
+        div.name{ width: 480px;
+          input{ width: 300px;}
+        }
+        div.natrue{ width: 280px;
+          select{ width:180px; height: 30px;}
+        }
+        div.intro{ width: 100%;}
+      }
+      a.save-btn{ display: inline-block; width: 120px; height: 30px; line-height: 30px; text-align: center; background-color: #18a28f; color: #fff; border-radius: 15px; margin-left: 350px; margin-top: 20px;}
+    }
+    .list2{ width: 100%; height: auto; position: relative;
+      h3{ border-left: 3px solid #7dd473; color: #009883; font-size: 16px; padding-left: 10px; margin: 10px 0; height: 14px; line-height: 18px;}
+      .part{ width: 100%; height: auto; position: relative; .cf();
+        h4{ height: 40px; line-height: 40px; border-bottom: 1px solid #ddd; margin: 10px;}
+        div{ float: left; margin: 10px 0; position: relative; .cf();
+          span{ float: left; width: 80px; height: 30px; line-height: 30px; text-align: right; .omit(); margin-right: 10px;}
+          input{ float: left; height: 14px; line-height: 14px; padding: 7px; border: 1px solid #ccc;}
+          select{ float: left; border: 1px solid #ccc;}
+          textarea{ float: left; border: 1px solid #ccc; resize: none; width: 680px; height: 140px; padding: 10px;}
+        }
+        div.name{
+          input{ width: 240px;}
+        }
+        div.sex{
+          select{ width: 60px; height: 30px; background-color: #fff;}
+        }
+        div.phone{
+          input{ width: 190px;}
+        }
+        div.birthday{}
+        div.email{
+          input{ width: 160px;}
+        }
+        div.place{}
+        div.workage{
+          select{ height: 30px; width: 100px;}
+        }
+        div.workstate{
+          select{ height: 30px; width: 150px;}
+        }
+        div.workfor{
+          input{ width: 255px;}
+        }
+      }
+      a.save-btn{ display: inline-block; width: 120px; height: 30px; line-height: 30px; text-align: center; background-color: #18a28f; color: #fff; border-radius: 15px; margin-left: 350px; margin-top: 20px;}
+    }
+    .list3{ width: 100%; height: auto; position: relative;
+      h3{ border-left: 3px solid #7dd473; color: #009883; font-size: 16px; padding-left: 10px; margin: 10px 0; height: 14px; line-height: 18px;}
+      a.add-recru{ display: inline-block; width: 180px; height: 32px; line-height: 32px; text-align: center; color: #fff; background-color: #0d9d89; font-size: 14px; margin: 10px;}
+      ul{ padding: 10px;  width:780px; position: relative; .cf();
+        li{ float: left; width: 228px; height: 80px; margin: 0 10px 10px 0; border: 1px solid #ccc; padding: 10px;
+          a{ display: block; width: 100%; height: 100%;
+            .title{ width: 100%; height: 39px; line-height: 39px; border-bottom: 1px solid #ccc;
+              b{ display: inline-block; width: 140px; height: 30px; .omit(); color: #009883; font-weight: bold; margin: 0 2px;}
+              span{ display: inline-block; width: 80px; height: 30px; .omit(); text-align: right;}
+            }
+            .bottom{ width: 100%; height: 30px; line-height: 30px; margin-top: 10px;
+              span{ display: inline-block; width: 49%; height: 30px; .omit();}
+            }
+          }
+        }
+      }
+    }
+    .list4{ width: 100%; height: auto; position: relative;
+      h3{ border-left: 3px solid #7dd473; color: #009883; font-size: 16px; padding-left: 10px; margin: 10px 0; height: 14px; line-height: 18px;}
+      .content-list{ width: 780px; height: auto; padding: 10px; position: relative; .cf();
+          .list{ float: left; min-width: 260px; min-height: 30px; line-height: 30px;
+            span{}
+          }
+          .biglist{
+            span{}
+            p{}
+          }
+        }
+        a.modify-btn{ display: inline-block; width: 120px; height: 30px; line-height: 30px; text-align: center; background-color: #18a28f; color: #fff; border-radius: 15px; margin-left:680px;}
+      }
+    .list5{ width: 100%; height: auto; position: relative;
+      h3{ border-left: 3px solid #7dd473; color: #009883; font-size: 16px; padding-left: 10px; margin: 10px 0; height: 14px; line-height: 18px;}
+      .content{ width: 780px; height: auto; padding: 10px; position: relative; .cf();
+        .list{ float: left; width: 260px; height: auto; position: relative; .cf(); margin: 10px 0;
+          span{ float: left; height: 30px; line-height: 30px; width: 100px; text-align: right; .omit(); margin-right: 10px;}
+          span.speci{ width: 30px; margin-right: 0; text-align: left; padding-left: 10px;}
+          a{ float: left; width: 140px; height: 28px; line-height: 28px; text-align: center; background-color: #84d67a; color: #fff; border: 1px solid #ccc;}
+          input{ float: left; border: 1px solid #ccc; height: 14px; line-height: 14px; padding: 7px; width: 60px;}
+          select{ float: left; border: 1px solid #ccc; height: 28px; background-color: #fff;}
+          textarea{ float: left; width: 644px; height: 120px; padding: 10px; border: 1px solid #ccc; resize: none;}
+        }
+        .total{ width: 100%;
+          input{ width: 650px;}
+        }
+      }
+      .oper{ width: 100%; height: 30px; text-align: center; margin: 10px 0;
+        a{ display: inline-block; width: 120px; height: 30px; line-height: 30px; margin: 0 10px; color: #fff; text-align: center; border-radius: 15px;}
+        .add-btn{ background-color: #f7b238;}
+        .sub-btn{ background-color: #18a28f;}
+      }
+    }
+  }
+  .labor{ width: 100%; height: auto; position: relative;
+    h3{ border-left: 3px solid #7dd473; color: #009883; font-size: 16px; padding-left: 10px; margin: 10px 0; height: 14px; line-height: 18px;}
+    .list{ border-bottom: 1px solid #dddddd; padding: 20px 0; position: relative; width: 100%;
+      h4{ font-size: 16px; color: #333; height: 40px; line-height: 40px;}
+      p{ line-height: 20px;}
+    }
+    .apply-btn{ display: inline-block; width: 120px; height: 30px; line-height: 30px; text-align: center; background-color: #18a28f; color: #fff; border-radius: 15px; margin: 10px 430px;}
+  }
+}

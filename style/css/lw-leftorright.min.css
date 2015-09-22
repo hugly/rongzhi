@@ -1,0 +1,633 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.search-box {
+  width: 880px;
+  margin: 20px 0;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+  padding-left: 75px;
+}
+.search-box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.search-box .search-pannle {
+  float: left;
+  width: 650px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+  display: inline-block;
+}
+.search-box .search-pannle:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.search-box .search-pannle .select-box {
+  float: left;
+  display: inline;
+  width: 100px;
+  overflow: hidden;
+}
+.search-box .search-pannle .select-box select {
+  background-color: #fff;
+  border: 1px solid #d0d0d0;
+  height: 32px;
+  border-radius: 0;
+}
+.search-box .search-pannle b {
+  float: left;
+  width: 20px;
+  height: 20px;
+  padding: 5px 0;
+  background: transparent url("images/lw.png") no-repeat 0 -18px;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+  text-align: right;
+}
+.search-box .search-pannle b i {
+  display: inline-block;
+  width: 0;
+  height: 16px;
+  margin-top: 2px;
+  border-left: 1px solid #d0d0d0;
+}
+.search-box .search-pannle input {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+  width: 380px;
+  padding: 8px;
+  border: 1px solid #d0d0d0;
+  border-left: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.search-box .search-pannle a.search-btn {
+  float: left;
+  margin-left: 10px;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  background-color: #0d9d89;
+}
+.search-box a.my-btn {
+  float: left;
+  width: 160px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  background-color: #84d67a;
+}
+.box {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .right-silder {
+  float: left;
+  margin-left: 20px;
+  width: 800px;
+  position: relative;
+}
+.box .right-silder .list1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .right-silder .list1 h3 {
+  border-left: 3px solid #7dd473;
+  color: #009883;
+  font-size: 16px;
+  padding-left: 10px;
+  margin: 10px 0;
+  height: 14px;
+  line-height: 18px;
+}
+.box .right-silder .list1 .content {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .right-silder .list1 .content:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .right-silder .list1 .content div {
+  float: left;
+  margin: 10px 0;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .right-silder .list1 .content div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .right-silder .list1 .content div span {
+  float: left;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+}
+.box .right-silder .list1 .content div input {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+  padding: 7px;
+  border: 1px solid #ccc;
+}
+.box .right-silder .list1 .content div select {
+  float: left;
+  border: 1px solid #ccc;
+}
+.box .right-silder .list1 .content div textarea {
+  float: left;
+  border: 1px solid #ccc;
+  resize: none;
+  width: 640px;
+  height: 140px;
+  padding: 10px;
+}
+.box .right-silder .list1 .content div.name {
+  width: 480px;
+}
+.box .right-silder .list1 .content div.name input {
+  width: 300px;
+}
+.box .right-silder .list1 .content div.natrue {
+  width: 280px;
+}
+.box .right-silder .list1 .content div.natrue select {
+  width: 180px;
+  height: 30px;
+}
+.box .right-silder .list1 .content div.intro {
+  width: 100%;
+}
+.box .right-silder .list1 a.save-btn {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #18a28f;
+  color: #fff;
+  border-radius: 15px;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+.box .right-silder .list2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .right-silder .list2 h3 {
+  border-left: 3px solid #7dd473;
+  color: #009883;
+  font-size: 16px;
+  padding-left: 10px;
+  margin: 10px 0;
+  height: 14px;
+  line-height: 18px;
+}
+.box .right-silder .list2 .part {
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .right-silder .list2 .part:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .right-silder .list2 .part h4 {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ddd;
+  margin: 10px;
+}
+.box .right-silder .list2 .part div {
+  float: left;
+  margin: 10px 0;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .right-silder .list2 .part div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .right-silder .list2 .part div span {
+  float: left;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+}
+.box .right-silder .list2 .part div input {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+  padding: 7px;
+  border: 1px solid #ccc;
+}
+.box .right-silder .list2 .part div select {
+  float: left;
+  border: 1px solid #ccc;
+}
+.box .right-silder .list2 .part div textarea {
+  float: left;
+  border: 1px solid #ccc;
+  resize: none;
+  width: 680px;
+  height: 140px;
+  padding: 10px;
+}
+.box .right-silder .list2 .part div.name input {
+  width: 240px;
+}
+.box .right-silder .list2 .part div.sex select {
+  width: 60px;
+  height: 30px;
+  background-color: #fff;
+}
+.box .right-silder .list2 .part div.phone input {
+  width: 190px;
+}
+.box .right-silder .list2 .part div.email input {
+  width: 160px;
+}
+.box .right-silder .list2 .part div.workage select {
+  height: 30px;
+  width: 100px;
+}
+.box .right-silder .list2 .part div.workstate select {
+  height: 30px;
+  width: 150px;
+}
+.box .right-silder .list2 .part div.workfor input {
+  width: 255px;
+}
+.box .right-silder .list2 a.save-btn {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #18a28f;
+  color: #fff;
+  border-radius: 15px;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+.box .right-silder .list3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .right-silder .list3 h3 {
+  border-left: 3px solid #7dd473;
+  color: #009883;
+  font-size: 16px;
+  padding-left: 10px;
+  margin: 10px 0;
+  height: 14px;
+  line-height: 18px;
+}
+.box .right-silder .list3 a.add-recru {
+  display: inline-block;
+  width: 180px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  background-color: #0d9d89;
+  font-size: 14px;
+  margin: 10px;
+}
+.box .right-silder .list3 ul {
+  padding: 10px;
+  width: 780px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .right-silder .list3 ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .right-silder .list3 ul li {
+  float: left;
+  width: 228px;
+  height: 80px;
+  margin: 0 10px 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.box .right-silder .list3 ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.box .right-silder .list3 ul li a .title {
+  width: 100%;
+  height: 39px;
+  line-height: 39px;
+  border-bottom: 1px solid #ccc;
+}
+.box .right-silder .list3 ul li a .title b {
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #009883;
+  font-weight: bold;
+  margin: 0 2px;
+}
+.box .right-silder .list3 ul li a .title span {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.box .right-silder .list3 ul li a .bottom {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.box .right-silder .list3 ul li a .bottom span {
+  display: inline-block;
+  width: 49%;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.box .right-silder .list4 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .right-silder .list4 h3 {
+  border-left: 3px solid #7dd473;
+  color: #009883;
+  font-size: 16px;
+  padding-left: 10px;
+  margin: 10px 0;
+  height: 14px;
+  line-height: 18px;
+}
+.box .right-silder .list4 .content-list {
+  width: 780px;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .right-silder .list4 .content-list:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .right-silder .list4 .content-list .list {
+  float: left;
+  min-width: 260px;
+  min-height: 30px;
+  line-height: 30px;
+}
+.box .right-silder .list4 a.modify-btn {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #18a28f;
+  color: #fff;
+  border-radius: 15px;
+  margin-left: 680px;
+}
+.box .right-silder .list5 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .right-silder .list5 h3 {
+  border-left: 3px solid #7dd473;
+  color: #009883;
+  font-size: 16px;
+  padding-left: 10px;
+  margin: 10px 0;
+  height: 14px;
+  line-height: 18px;
+}
+.box .right-silder .list5 .content {
+  width: 780px;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.box .right-silder .list5 .content:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .right-silder .list5 .content .list {
+  float: left;
+  width: 260px;
+  height: auto;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+  margin: 10px 0;
+}
+.box .right-silder .list5 .content .list:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.box .right-silder .list5 .content .list span {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+}
+.box .right-silder .list5 .content .list span.speci {
+  width: 30px;
+  margin-right: 0;
+  text-align: left;
+  padding-left: 10px;
+}
+.box .right-silder .list5 .content .list a {
+  float: left;
+  width: 140px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #84d67a;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+.box .right-silder .list5 .content .list input {
+  float: left;
+  border: 1px solid #ccc;
+  height: 14px;
+  line-height: 14px;
+  padding: 7px;
+  width: 60px;
+}
+.box .right-silder .list5 .content .list select {
+  float: left;
+  border: 1px solid #ccc;
+  height: 28px;
+  background-color: #fff;
+}
+.box .right-silder .list5 .content .list textarea {
+  float: left;
+  width: 644px;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+.box .right-silder .list5 .content .total {
+  width: 100%;
+}
+.box .right-silder .list5 .content .total input {
+  width: 650px;
+}
+.box .right-silder .list5 .oper {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin: 10px 0;
+}
+.box .right-silder .list5 .oper a {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 10px;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+}
+.box .right-silder .list5 .oper .add-btn {
+  background-color: #f7b238;
+}
+.box .right-silder .list5 .oper .sub-btn {
+  background-color: #18a28f;
+}
+.box .labor {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box .labor h3 {
+  border-left: 3px solid #7dd473;
+  color: #009883;
+  font-size: 16px;
+  padding-left: 10px;
+  margin: 10px 0;
+  height: 14px;
+  line-height: 18px;
+}
+.box .labor .list {
+  border-bottom: 1px solid #dddddd;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+}
+.box .labor .list h4 {
+  font-size: 16px;
+  color: #333;
+  height: 40px;
+  line-height: 40px;
+}
+.box .labor .list p {
+  line-height: 20px;
+}
+.box .labor .apply-btn {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #18a28f;
+  color: #fff;
+  border-radius: 15px;
+  margin: 10px 430px;
+}

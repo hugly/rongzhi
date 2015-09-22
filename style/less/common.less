@@ -45,14 +45,16 @@ body{ width: 100%; height: auto; min-width: 980px; position: relative;}
 
 //左侧导航栏部分
 .left-silder{ float: left; width: 160px; height: auto; position: relative;
-  .left-list{ width: 100%; height: auto; position: relative;
-    h3{}
-    ul{
-      li{
-        a{}
+  .left-list{ width: 100%; height: auto; position: relative; margin-bottom: 30px;
+    .list-title{ height: 30px; width: 100%; position: relative; border-bottom: 2px solid #ddd; margin-bottom: 10px;
+      h3{ height: 30px; line-height: 30px; font-size: 20px; color: #999; width: 50%; display: inline-block; border-bottom: 2px solid #f7b238;}
+    }
+    ul{ width: 100%; height: auto; position: relative; .cf();
+      li{ width: 120px; padding:8px 20px; height: 20px; line-height: 20px; margin-bottom: 2px; .bg("lw.png",no-repeat,140px -40px,#eee); cursor: pointer;
+        a{ display: block; width: 100%; height: 100%; color: #333;}
       }
-      li.active{
-        a{}
+      li:hover,li.active{ background-color: #009883; background-position: 140px 8px;
+        a{ color: #fff;}
       }
     }
   }

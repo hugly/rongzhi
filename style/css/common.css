@@ -177,6 +177,72 @@ body {
   color: #fff;
   text-align: center;
 }
+.left-silder {
+  float: left;
+  width: 160px;
+  height: auto;
+  position: relative;
+}
+.left-silder .left-list {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 30px;
+}
+.left-silder .left-list .list-title {
+  height: 30px;
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 10px;
+}
+.left-silder .left-list .list-title h3 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #999;
+  width: 50%;
+  display: inline-block;
+  border-bottom: 2px solid #f7b238;
+}
+.left-silder .left-list ul {
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.left-silder .left-list ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.left-silder .left-list ul li {
+  width: 120px;
+  padding: 8px 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 2px;
+  background: #eeeeee url("images/lw.png") no-repeat 140px -40px;
+  cursor: pointer;
+}
+.left-silder .left-list ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+.left-silder .left-list ul li:hover,
+.left-silder .left-list ul li.active {
+  background-color: #009883;
+  background-position: 140px 8px;
+}
+.left-silder .left-list ul li:hover a,
+.left-silder .left-list ul li.active a {
+  color: #fff;
+}
 .consultation {
   width: 100%;
   height: 100%;
