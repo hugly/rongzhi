@@ -1,0 +1,111 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .box {
+  margin-top: 28px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left {
+  float: left;
+  width: 220px;
+}
+.wapper .box .left .title {
+  border-left: 3px solid #009883;
+  padding-left: 5px;
+  font-size: 14px;
+  color: #009883;
+  margin-bottom: 10px;
+}
+.wapper .box .left ul li {
+  height: 43px;
+  background: #e5e5e5;
+  line-height: 43px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-bottom: 1px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+.wapper .box .left ul li.active {
+  background: #fff;
+  color: #009883;
+}
+.wapper .box .left ul li:hover {
+  background: #fff;
+  color: #009883;
+}
+.wapper .box .right {
+  float: right;
+  width: 697px;
+}
+.wapper .box .right .list .tit {
+  min-height: 1px;
+  zoom: 1;
+  margin-top: -5px;
+}
+.wapper .box .right .list .tit:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right .list .tit h3 {
+  font-size: 14px;
+  color: #999;
+  border-bottom: 2px solid #f7b238;
+  line-height: 35px;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  float: left;
+}
+.wapper .box .right .list .tit div {
+  margin-top: 35px;
+  width: 577px;
+  border-bottom: 2px solid #b9b9b9;
+  float: right;
+}
+.wapper .box .right .list .Content {
+  padding: 15px 0;
+  position: relative;
+  padding-right: 85px;
+}
+.wapper .box .right .list .Content p {
+  text-indent: 2em;
+  color: #333;
+}
+.wapper .box .right .list .Content a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 87px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  background: #18a28f;
+  border-radius: 10px;
+}

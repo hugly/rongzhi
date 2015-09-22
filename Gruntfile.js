@@ -54,6 +54,9 @@ module.exports = function(grunt) {
           'style/css/HL.BM_detailed.min.css': 'style/less/HL.BM_detailed.less',
           'style/css/HL.BM_detailed_two.min.css': 'style/less/HL.BM_detailed_two.less',
           'style/css/lw-news.min.css': 'style/less/lw-news.less'
+          'style/css/HL.BM_detailed_two.min.css': 'style/less/HL.BM_detailed_two.less',
+          'style/css/HL.BM_Government_two.min.css': 'style/less/HL.BM_Government_two.less',
+          'style/css/HL.BM_hospital.min.css': 'style/less/HL.BM_hospital.less'
 
         }
       }
