@@ -1,0 +1,154 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .title {
+  margin-top: 30px;
+  padding: 8px 20px;
+  background: #0d9d89;
+  margin-bottom: 15px;
+}
+.wapper .title a {
+  font-size: 14px;
+  color: #fff;
+}
+.wapper .box {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .left {
+  width: 255px;
+  float: left;
+}
+.wapper .box .left .head {
+  height: 42px;
+  background: #009882;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  line-height: 42px;
+  font-size: 14px;
+}
+.wapper .box .left .content {
+  padding-top: 15px;
+}
+.wapper .box .left .content p {
+  text-indent: 2em;
+  color: #787878;
+  margin-bottom: 20px;
+}
+.wapper .box .right {
+  float: right;
+  width: 669px;
+  padding: 0 28px;
+}
+.wapper .box .right ol {
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .right ol:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right ol li {
+  box-sizing: border-box;
+  width: 167px;
+  height: 43px;
+  text-align: center;
+  line-height: 43px;
+  border: 1px solid #dddddd;
+  background: #f5f4f2;
+  font-size: 14px;
+  float: left;
+  cursor: pointer;
+}
+.wapper .box .right ol li.active {
+  border-bottom: 3px solid #009882;
+  background: #e7e7e7;
+}
+.wapper .box .right ol li:hover {
+  border-bottom: 3px solid #009882;
+  background: #e7e7e7;
+}
+.wapper .box .right .mess {
+  margin-top: 65px;
+}
+.wapper .box .right .mess div {
+  margin-bottom: 10px;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .right .mess div:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .right .mess div span {
+  font-size: 14px;
+  color: #787878;
+  width: 140px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+  float: left;
+  margin-top: 12px;
+}
+.wapper .box .right .mess div input {
+  float: left;
+  width: 400px;
+  height: 44px;
+  border: 1px solid #d4d4d4;
+  padding-left: 10px;
+}
+.wapper .box .right .mess div .top {
+  margin-top: 7px;
+}
+.wapper .box .right .mess div textarea {
+  float: left;
+  width: 390px;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+  height: 134px;
+  resize: none;
+}
+.wapper .box .right .submit {
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+.wapper .box .right .submit a {
+  display: inline-block;
+  width: 128px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 15px;
+  background: #19a290;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.wapper .box .right .submit .cancel {
+  background: #f7b238;
+}

@@ -51,6 +51,9 @@ module.exports = function(grunt) {
           'style/css/ZH.CW_Apply_return.css': 'style/less/ZH.CW_Apply_return.less',
           'style/css/HL.BM_Government.min.css': 'style/less/HL.BM_Government.less',
           'style/css/lw-leftorright.min.css': 'style/less/lw-leftorright.less'
+          'style/css/HL.BM_Government.min.css': 'style/less/HL.BM_Government.less',
+          'style/css/HL.BM_detailed.min.css': 'style/less/HL.BM_detailed.less',
+          'style/css/HL.BM_detailed_two.min.css': 'style/less/HL.BM_detailed_two.less'
 
         }
       }

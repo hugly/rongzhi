@@ -1,0 +1,94 @@
+/*
+@ project:CC
+@ date:2015-09-21
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .title {
+  margin-top: 30px;
+  padding: 8px 20px;
+  background: #0d9d89;
+  margin-bottom: 30px;
+}
+.wapper .title a {
+  font-size: 14px;
+  color: #fff;
+}
+.wapper .box .head {
+  background: #f5f4f2;
+  height: 43px;
+  border: 1px solid #dddddd;
+  border-left: none;
+}
+.wapper .box .head li {
+  box-sizing: border-box;
+  width: 167px;
+  height: 43px;
+  text-align: center;
+  line-height: 43px;
+  background: #f5f4f2;
+  font-size: 14px;
+  float: left;
+  cursor: pointer;
+  border-left: 1px solid #ddd;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .head li.active {
+  border-bottom: 3px solid #009882;
+  background: #e7e7e7;
+}
+.wapper .box .head li:hover {
+  border-bottom: 3px solid #009882;
+  background: #e7e7e7;
+}
+.wapper .box .content {
+  margin-right: -140px;
+  padding-bottom: 30px;
+}
+.wapper .box .content li {
+  float: left;
+  width: 420px;
+  margin-top: 60px;
+  height: 73px;
+  background: url("../css/images/time_1.png") no-repeat 40px center;
+  position: relative;
+  margin-right: 140px;
+}
+.wapper .box .content li p {
+  margin-left: 118px;
+  width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #787878;
+}
+.wapper .box .content li .name {
+  font-size: 18px;
+  color: #adacac;
+}
+.wapper .box .content li i {
+  width: 75px;
+  height: 24px;
+  background: #ccc;
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  text-align: right;
+  line-height: 24px;
+  color: #fff;
+  padding-right: 5px;
+  background: url("../css/images/bin_2.png") no-repeat center;
+}
+.wapper .box .content li .ing {
+  background: url("../css/images/bin_3.png") no-repeat center;
+}

@@ -1,0 +1,123 @@
+@import "lib.less";
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  .title{
+    margin-top: 30px;
+    padding: 8px 20px;
+    background: #0d9d89;
+    margin-bottom: 15px;
+    a{
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+  .box{
+    .cf();
+    .left{
+      width: 255px;
+      float: left;
+      .head{
+        height: 42px;
+        background: #009882;
+        border-radius: 8px;
+        text-align: center;
+        color: #fff;
+        line-height: 42px;
+        font-size: 14px;
+      }
+      .content{
+        padding-top: 15px;
+        p{
+          text-indent: 2em;
+          color: #787878;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .right{
+      float: right;
+      width: 669px;
+      padding: 0 28px;
+      ol{
+        .cf();
+        li{
+          box-sizing: border-box;
+          width: 167px;
+          height: 43px;
+          text-align: center;
+          line-height: 43px;
+          border: 1px solid #dddddd;
+          background: #f5f4f2;
+          font-size: 14px;
+          float: left;
+          cursor: pointer;
+        }
+        li.active{
+          border-bottom: 3px solid #009882;
+          background: #e7e7e7;
+        }
+        li:hover{
+          border-bottom: 3px solid #009882;
+          background: #e7e7e7;
+        }
+      }
+      .mess{
+        margin-top: 65px;
+        div{
+          margin-bottom: 10px;
+          .cf();
+          span{
+            font-size: 14px;
+            color: #787878;
+            width: 140px;
+            text-align: right;
+            .omit();
+            margin-right: 10px;
+            float: left;
+            margin-top: 12px;
+          }
+          input{
+            float: left;
+            width: 400px;
+            height: 44px;
+            border: 1px solid #d4d4d4;
+            padding-left: 10px;
+          }
+          .top{
+            margin-top: 7px;
+          }
+          textarea{
+            float: left;
+            width: 390px;
+            border: 1px solid #d4d4d4;
+            padding: 10px;
+            height: 134px;
+            resize: none;
+          }
+        }
+      }
+      .submit{
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 20px;
+        a{
+          display: inline-block;
+          width: 128px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          color: #fff;
+          border-radius: 15px;
+          background: #19a290;
+          font-size: 14px;
+          margin-right: 15px;
+        }
+        .cancel{
+          background: #f7b238;
+        }
+      }
+    }
+  }
+}
