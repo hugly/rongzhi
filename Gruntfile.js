@@ -62,7 +62,7 @@ module.exports = function(grunt) {
     },
     includereplace: {
         html: {
-            src: ['main/*'],
+            src: ['main/hl/*','main/lw/*','main/wz/*','main/zh/*'],
             dest: 'dist/',
             expand: true,
             cwd: 'html'

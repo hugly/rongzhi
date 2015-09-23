@@ -1,6 +1,7 @@
 @import "lib.less";
 .wapper{
   width: 980px;
+  position: relative;
   margin: 0 auto;
   .cf();
   .left{
@@ -48,7 +49,7 @@
           height: 36px;
           float: left;
         }
-        p{
+        a{
           float: left;
           width: 500px;
           .omit();
@@ -67,15 +68,16 @@
             .cf();
             input{
               float: left;
-              margin-top: 7px;
+              margin-top: 4px;
               margin-right: 10px;
             }
-            i{
+            label{
               float: left;
               width: 100px;
               .omit();
               color: #787878;
               line-height: 26px;
+              cursor: pointer;
             }
           }
 

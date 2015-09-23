@@ -27,7 +27,6 @@ AJAX = {
         if(type == "post"){
             data = JSON.stringify(data);
         }
-
         //$.loadShow();
         $.ajax({
             type:type,
@@ -179,9 +178,9 @@ AJAX = {
             data:data.data
         });
     },
-    //判断用户是否参加过某个问题
-    judgeQuestion:function(data){
-        var url = "api/Vote/GetCheckUserCanVote",
+    //获取最新的投票结果
+    getNewVotes:function(data){
+        var url = "api/Vote/GetNewestResult",
             success = $.getFunction(data.callback);
 
         this.ajax({
@@ -192,6 +191,20 @@ AJAX = {
             data:data.data
         });
     },
+    //获取火热进行中的投票
+    getHotVotes:function(data){
+        var url = "api/Vote/GetHotVoting",
+            success = $.getFunction(data.callback);
+
+        this.ajax({
+            line:0,
+            src:url,
+            callback:success,
+            type:"get",
+            data:data.data
+        });
+    }
+
 
     //<!--投票部分结束-->
 

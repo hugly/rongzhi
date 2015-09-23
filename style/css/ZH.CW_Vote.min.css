@@ -1,9 +1,10 @@
 /*
 @ project:CC
-@ date:2015-09-22
+@ date:2015-09-23
 */
 .wapper {
   width: 980px;
+  position: relative;
   margin: 0 auto;
   min-height: 1px;
   zoom: 1;
@@ -74,7 +75,7 @@
   height: 36px;
   float: left;
 }
-.wapper .left .box .name p {
+.wapper .left .box .name a {
   float: left;
   width: 500px;
   white-space: nowrap;
@@ -115,10 +116,10 @@
 }
 .wapper .left .box .vote .chek div input {
   float: left;
-  margin-top: 7px;
+  margin-top: 4px;
   margin-right: 10px;
 }
-.wapper .left .box .vote .chek div i {
+.wapper .left .box .vote .chek div label {
   float: left;
   width: 100px;
   white-space: nowrap;
@@ -128,6 +129,7 @@
   text-overflow: ellipsis;
   color: #787878;
   line-height: 26px;
+  cursor: pointer;
 }
 .wapper .left .box .vote .show {
   margin-bottom: 13px;
