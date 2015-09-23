@@ -47,7 +47,7 @@
   border-bottom: 1px solid #dcdcdc;
   float: right;
   text-align: right;
-  margin-top: 12px;
+  height: 31px;
 }
 .wapper .box .name {
   white-space: nowrap;
@@ -61,7 +61,7 @@
   height: 36px;
   float: left;
 }
-.wapper .box .name p {
+.wapper .box .name a {
   float: left;
   width: 500px;
   white-space: nowrap;
@@ -88,6 +88,7 @@
 .wapper .box .vote .chek {
   float: left;
   margin-left: 25px;
+  width: 460px;
 }
 .wapper .box .vote .chek div {
   min-height: 1px;
@@ -102,12 +103,12 @@
 }
 .wapper .box .vote .chek div input {
   float: left;
-  margin-top: 7px;
+  margin-top: 4px;
   margin-right: 10px;
 }
-.wapper .box .vote .chek div i {
+.wapper .box .vote .chek div label {
   float: left;
-  width: 100px;
+  width: 220px;
   white-space: nowrap;
   overflow: hidden;
   word-wrap: normal;
@@ -115,53 +116,53 @@
   text-overflow: ellipsis;
   color: #787878;
   line-height: 26px;
+  cursor: pointer;
 }
-.wapper .box .vote .View {
+.wapper .box .vote .show {
   float: right;
-}
-.wapper .box .vote .View .show {
-  margin-bottom: 13px;
+  margin-bottom: 10px;
+  width: 420px;
   min-height: 1px;
   zoom: 1;
 }
-.wapper .box .vote .View .show:after {
+.wapper .box .vote .show:after {
   content: "020";
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
 }
-.wapper .box .vote .View .show .pic {
+.wapper .box .vote .show .pic {
   float: left;
 }
-.wapper .box .vote .View .show .pic .div1 {
+.wapper .box .vote .show .pic .div1 {
   width: 220px;
   height: 12px;
   border: 1px solid #ffd267;
   border-radius: 5px;
   position: relative;
 }
-.wapper .box .vote .View .show .pic .div1 .div2 {
+.wapper .box .vote .show .pic .div1 .div2 {
   position: absolute;
   top: 0;
-  left: -1px;
+  left: 0px;
   width: 100px;
   height: 12px;
   background: #ffd267;
   border-radius: 5px;
 }
-.wapper .box .vote .View .show .pic .div1 .div2_red {
+.wapper .box .vote .show .pic .div1 .div2_red {
   background: #ff6a58;
   width: 200px;
 }
-.wapper .box .vote .View .show .pic .div1 .div2_blue {
+.wapper .box .vote .show .pic .div1 .div2_blue {
   background: #88abda;
   width: 150px;
 }
-.wapper .box .vote .View .show .pic .div1_blue {
+.wapper .box .vote .show .pic .div1_blue {
   border: 1px solid #88abda;
 }
-.wapper .box .vote .View .show .sum {
+.wapper .box .vote .show .sum {
   float: left;
   color: #009882;
   margin-left: 20px;
@@ -180,7 +181,7 @@
   text-align: center;
   line-height: 20px;
   border-radius: 7px;
-  margin-left: 540px;
+  margin-left: 890px;
   margin-top: 30px;
 }
 .wapper .com p {

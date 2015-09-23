@@ -1,19 +1,36 @@
 /**
- * Created by hulgy on 15/9/22.
+ * Created by hulgy on 15/9/23.
  */
-(function($){
-
-    var vote={
+(function(){
+    var voteDetail={
         body:$("#voteall"),
+        id: $.getUrlParam("id"),
         oTem:$("#showtemp"),
         //初始化
         init:function(){
+            this.getDataByID();
             this.getAllVote();
-            this.getTheNewest();
-            this.getTheHotest();
             this.bindEvent();
         },
-        //事件绑定
+        //获取所有的投票问题
+        getAllVote:function(){
+            var _this=this;
+            AJAX.getAllVotes({
+                data:{
+                    searchtxt:"",
+                    type:"vote",
+                    status:"0",
+                    pageindex:0,
+                    pagesize:10
+                },
+                callback:function(data){
+                    for(var i= 0,j=data.length;i<j;i++){
+                        _this.body.find(".Vote_t").append($('<div class="vote-list"><div class="name"><a href="cw_vote_three.html?state=1&id='+data[i].votequestionid+'">'+data[i].title+'</a></div><div class="sum"><i>'+data[i].number+'</i>人参与</div></div>'));
+                    }
+                }
+            });
+        },
+        //绑定事件
         bindEvent:function(){
             var _this=this;
             //input.label点击事件
@@ -37,88 +54,58 @@
                 });
             });
         },
-        //获取最新投票结果
-        getTheNewest:function(){
+        //根据id获取值
+        getDataByID:function(){
             var _this=this;
-            AJAX.getNewVotes({
-                callback:function(data){
-                    var oBox=_this.body.find(".box").eq(0);
-                    _this.fillVoteData(oBox,true,data);
-                }
-            });
-        },
-        //获取最热投票
-        getTheHotest:function(){
-            var _this=this;
-            AJAX.getHotVotes({
-                callback:function(data){
-                    var oBox=_this.body.find(".box").eq(1);
-                    _this.fillVoteData(oBox,false,data);
-                }
-            });
-        },
-        //获取所有的投票问题
-        getAllVote:function(){
-            var _this=this;
-            AJAX.getAllVotes({
+            AJAX.getVoteDetailsByID({
                 data:{
-                    searchtxt:"",
-                    type:"vote",
-                    status:"0",
-                    pageindex:0,
-                    pagesize:10
+                    votequestionid:_this.id
                 },
                 callback:function(data){
-                    for(var i= 0,j=data.length;i<j;i++){
-                        _this.body.find(".Vote_t").append($('<div class="vote-list"><div class="name"><a href="javascript:;">'+data[i].title+'</a></div><div class="sum"><i>'+data[i].number+'</i>人参与</div></div>'));
+                    var oDate=new Date(),
+                        oDate1=new Date(data.starttime),
+                        oDate2=new Date(data.endtime),
+                        stime=oDate1.getTime(),
+                        etime=oDate2.getTime(),
+                        ntime=oDate.getTime(),
+                        state=0;
+
+                    if(etime<ntime){
+                        state=1;
                     }
-                    _this.body.find(".more a").attr({
-                        "href":"cw_vote_two.html?state=1"
-                    });
+                    console.log(data);
+                    _this.fillVoteData($(".box"),state,data)
                 }
             });
-
-            AJAX.getAllVotes({
-                data:{
-                    searchtxt:"",
-                    type:"vote",
-                    status:"1",
-                    pageindex:0,
-                    pagesize:10
-                },
-                callback:function(data){
-                    for(var i= 0,j=data.length;i<j;i++){
-                        _this.body.find(".Vote_t").append($('<div class="vote-list"><div class="name"><a href="javascript:;">'+data[i].title+'</a></div><div class="sum"><i>'+data[i].number+'</i>人参与</div></div>'));
-                    }
-                }
-            });
-
         },
         //填充投票数据
         fillVoteData:function(obj,state,data){
             var status= 0,
                 colorArr=[["",""],["div1_red","div2_red"],["div1_blue","div2_blue"],["div1_yellow","div2_yellow"],["div1_green","div2_green"],];
-
-            state?status=1:status=0;
-
-            obj.find(".name a").attr({
-                "href":"cw_vote_three.html?id="+data.votequestionid+"&state="+status
-            });
-
             obj.find(".tatle a").attr({
                 "href":"cw_vote_two.html?state="+status
             });
             obj.attr({
                 "dataid":data.votequestionid
             });
-            if(state){
+            obj.find(".name a").attr({
+                "href":"cw_vote_three.html?id="+data.votequestionid+"&state="+status
+            });
+            obj.find(".name i").text(data.starttime);
+
+            if(state == 1){
                 obj.find(".number").html(data.number+"<i>人参与</i>");
+            }else{
+                obj.find(".tatle h3").html('大家来投票<i>（进行中）</i>');
             }
             obj.find(".name a").text(data.title);
             for(var i= 0,j=data.options.length;i<j;i++){
                 var id="h"+i;
-                if(state){
+                if(state == 1){
                     obj.find(".chek").append($('<div><input type="radio" disabled=""><label>'+data.options[i].title+'</label></div>'));
+                    obj.find(".sub").css({
+                        "display":"none"
+                    });
                 }else{
                     var tem=$('<div dataid="'+data.options[i].voteoptionid+'"><input type="radio" name="check"><label>'+data.options[i].title+'</label></div>');
                     tem.find("input").attr({
@@ -138,11 +125,11 @@
                 oTar.find(".div2").addClass(colorArr[i][1]);
                 oTar.find("i").text(data.options[i].number);
                 oTar.find("b").text("("+num+"% )");
-                obj.find(".vote").append(oTar);
+                obj.find(".view").append(oTar);
             }
 
         }
-    };
-    vote.init();
 
+    };
+    voteDetail.init();
 })(jQuery);

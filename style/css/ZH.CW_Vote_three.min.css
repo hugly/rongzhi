@@ -60,7 +60,7 @@
   border-bottom: 1px solid #dcdcdc;
   float: right;
   text-align: right;
-  margin-top: 12px;
+  margin-top: 13px;
 }
 .wapper .left .box .name {
   white-space: nowrap;
@@ -74,9 +74,9 @@
   height: 36px;
   float: left;
 }
-.wapper .left .box .name p {
+.wapper .left .box .name a {
   float: left;
-  width: 500px;
+  width: 400px;
   white-space: nowrap;
   overflow: hidden;
   word-wrap: normal;
@@ -123,7 +123,7 @@
   margin-top: 7px;
   margin-right: 10px;
 }
-.wapper .left .box .vote .chek div i {
+.wapper .left .box .vote .chek div label {
   float: left;
   width: 100px;
   white-space: nowrap;
@@ -134,52 +134,52 @@
   color: #787878;
   line-height: 26px;
 }
-.wapper .left .box .vote .View {
+.wapper .left .box .vote .view {
   float: right;
 }
-.wapper .left .box .vote .View .show {
+.wapper .left .box .vote .view .show {
   margin-bottom: 13px;
   min-height: 1px;
   zoom: 1;
 }
-.wapper .left .box .vote .View .show:after {
+.wapper .left .box .vote .view .show:after {
   content: "020";
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
 }
-.wapper .left .box .vote .View .show .pic {
+.wapper .left .box .vote .view .show .pic {
   float: left;
 }
-.wapper .left .box .vote .View .show .pic .div1 {
+.wapper .left .box .vote .view .show .pic .div1 {
   width: 220px;
   height: 12px;
   border: 1px solid #ffd267;
   border-radius: 5px;
   position: relative;
 }
-.wapper .left .box .vote .View .show .pic .div1 .div2 {
+.wapper .left .box .vote .view .show .pic .div1 .div2 {
   position: absolute;
   top: 0;
-  left: -1px;
+  left: 0px;
   width: 100px;
   height: 12px;
   background: #ffd267;
   border-radius: 5px;
 }
-.wapper .left .box .vote .View .show .pic .div1 .div2_red {
+.wapper .left .box .vote .view .show .pic .div1 .div2_red {
   background: #ff6a58;
   width: 200px;
 }
-.wapper .left .box .vote .View .show .pic .div1 .div2_blue {
+.wapper .left .box .vote .view .show .pic .div1 .div2_blue {
   background: #88abda;
   width: 150px;
 }
-.wapper .left .box .vote .View .show .pic .div1_blue {
+.wapper .left .box .vote .view .show .pic .div1_blue {
   border: 1px solid #88abda;
 }
-.wapper .left .box .vote .View .show .sum {
+.wapper .left .box .vote .view .show .sum {
   float: left;
   color: #009882;
   margin-left: 20px;
@@ -195,6 +195,7 @@
   border-radius: 7px;
   margin-left: 540px;
   margin-top: 30px;
+  color: #fff;
 }
 .wapper .left .box .sub a {
   color: #fff;

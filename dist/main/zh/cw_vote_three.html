@@ -6,8 +6,11 @@
     <link rel="stylesheet" type="text/css" href="../../../style/css/reset.min.css">
     <link rel="stylesheet" type="text/css" href="../../../style/css/common.css">
     <link rel="stylesheet" type="text/css" href="../../../style/css/ZH.CW_Vote_three.min.css">
+    <script type="text/javascript"  src="../../../js/lib/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript"  src="../../../js/lib/o2o.js"></script>
+    <script type="text/javascript"  src="../../../js/lib/jq.extend.js"></script>
 </head>
-<body>
+<body id="voteall">
 <!--引用公共头部部分-->
 <nav class="nav" id="nav">
     <div class="nav-content">
@@ -110,17 +113,15 @@
 </div>
 
     <div class="wapper">
-        
-<ul class="HL_Navigation_two">
-    <li>通知</li>
-    <li>投票</li>
-    <li>意见交流</li>
-    <li>推荐</li>
-    <li >财务公开</li>
-    <li class="active">社情调查</li>
-    <li>便民申请</li>
-</ul>
-
+        <ul class="HL_Navigation_two">
+            <li>通知</li>
+            <li class="active">投票</li>
+            <li>意见交流</li>
+            <li>推荐</li>
+            <li >财务公开</li>
+            <li>社情调查</li>
+            <li>便民申请</li>
+        </ul>
         <div class="left">
             <div class="box">
                 <div class="tatle">
@@ -131,48 +132,15 @@
                 </div>
                 <div class="name">
                     <img src="../../../data-images/todou.png"/>
-                    <P>你喜欢吃土豆吗？</P>
+                    <a target="_blank">你喜欢吃土豆吗？</a>
                     <i class="time">2015-9-17</i>
                 </div>
                 <div class="vote">
                     <div class="chek">
-                        <div><i>喜欢</i></div>
-                        <div><i>不喜欢</i></div>
-                        <div><i>土豆是什么？</i></div>
                     </div>
-                    <div class="View">
-                        <div class="show">
-                            <div class="pic">
-                                <div class="div1">
-                                    <div class="div2"></div>
-                                </div>
-                            </div>
-                            <div class="sum">
-                                <i>498</i><b>（60%）</b>
-                            </div>
-                        </div>
-                        <div class="show">
-                            <div class="pic">
-                                <div class="div1 div1_red">
-                                    <div class="div2 div2_red"></div>
-                                </div>
-                            </div>
-                            <div class="sum">
-                                <i>498</i><b>（60%）</b>
-                            </div>
-                        </div>
-                        <div class="show">
-                            <div class="pic">
-                                <div class="div1 div1_blue">
-                                    <div class="div2 div2_blue"></div>
-                                </div>
-                            </div>
-                            <div class="sum">
-                                <i>498</i><b>（60%）</b>
-                            </div>
-                        </div>
+                    <div class="view">
                     </div>
-
+                    <a class="sub">投票</a>
                 </div>
             </div>
         </div>
@@ -182,21 +150,21 @@
                 <div></div>
             </div>
             <div class="Vote_t">
-                <div class="name"><a>你喜欢吃土豆吗?</a></div>
-                <div class="sum"><i>1234</i>人参与</div>
-                <div class="name"><a>你喜欢吃土豆吗?</a></div>
-                <div class="sum"><i>1234</i>人参与</div>
-                <div class="name"><a>你喜欢吃土豆吗?</a></div>
-                <div class="sum"><i>1234</i>人参与</div>
-                <div class="name"><a>你喜欢吃土豆吗?</a></div>
-                <div class="sum"><i>1234</i>人参与</div>
-                <div class="name"><a>你喜欢吃土豆吗?</a></div>
-                <div class="sum"><i>1234</i>人参与</div>
-                <div class="name"><a>你喜欢吃土豆吗?</a></div>
-                <div class="sum"><i>1234</i>人参与</div>
+
             </div>
         </div>
 
     </div>
+<div class="show" id="showtemp" style="display: none">
+    <div class="pic">
+        <div class="div1">
+            <div class="div2"></div>
+        </div>
+    </div>
+    <div class="sum">
+        <i>498</i><b>（60%）</b>
+    </div>
+</div>
+<script type="text/javascript" src="../../../js/control/votedetail.js"></script>
 </body>
 </html>

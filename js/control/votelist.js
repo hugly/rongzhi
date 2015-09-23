@@ -4,13 +4,17 @@
 (function($){
 
     var vote={
+        state: $.getUrlParam("state"),
         body:$("#voteall"),
         oTem:$("#showtemp"),
         //初始化
         init:function(){
             this.getAllVote();
-            this.getTheNewest();
-            this.getTheHotest();
+            if(this.state == 1){
+                this.getTheNewest();
+            }else{
+                this.getTheHotest();
+            }
             this.bindEvent();
         },
         //事件绑定
@@ -42,8 +46,8 @@
             var _this=this;
             AJAX.getNewVotes({
                 callback:function(data){
-                    var oBox=_this.body.find(".box").eq(0);
-                    _this.fillVoteData(oBox,true,data);
+                    var oBox=_this.body.find(".box");
+                    _this.fillVoteData(oBox,_this.state,data);
                 }
             });
         },
@@ -52,8 +56,8 @@
             var _this=this;
             AJAX.getHotVotes({
                 callback:function(data){
-                    var oBox=_this.body.find(".box").eq(1);
-                    _this.fillVoteData(oBox,false,data);
+                    var oBox=_this.body.find(".box");
+                    _this.fillVoteData(oBox,_this.state,data);
                 }
             });
         },
@@ -64,61 +68,44 @@
                 data:{
                     searchtxt:"",
                     type:"vote",
-                    status:"0",
+                    status:_this.state,
                     pageindex:0,
                     pagesize:10
                 },
                 callback:function(data){
                     for(var i= 0,j=data.length;i<j;i++){
-                        _this.body.find(".Vote_t").append($('<div class="vote-list"><div class="name"><a href="javascript:;">'+data[i].title+'</a></div><div class="sum"><i>'+data[i].number+'</i>人参与</div></div>'));
-                    }
-                    _this.body.find(".more a").attr({
-                        "href":"cw_vote_two.html?state=1"
-                    });
-                }
-            });
-
-            AJAX.getAllVotes({
-                data:{
-                    searchtxt:"",
-                    type:"vote",
-                    status:"1",
-                    pageindex:0,
-                    pagesize:10
-                },
-                callback:function(data){
-                    for(var i= 0,j=data.length;i<j;i++){
-                        _this.body.find(".Vote_t").append($('<div class="vote-list"><div class="name"><a href="javascript:;">'+data[i].title+'</a></div><div class="sum"><i>'+data[i].number+'</i>人参与</div></div>'));
+                        _this.body.find(".listbox").append($('<div class="com" dataid="'+data[i].votequestionid+'"><p><a target="_blank" href="cw_vote_three.html?id='+data[i].votequestionid+'&state='+data[i].status+'">'+data[i].title+'</a></P><p class="time">'+data[i].endtime+'<i>'+data[i].number+'</i><b>人参与</b></p></div>'));
                     }
                 }
             });
-
         },
         //填充投票数据
         fillVoteData:function(obj,state,data){
             var status= 0,
                 colorArr=[["",""],["div1_red","div2_red"],["div1_blue","div2_blue"],["div1_yellow","div2_yellow"],["div1_green","div2_green"],];
-
-            state?status=1:status=0;
-
-            obj.find(".name a").attr({
-                "href":"cw_vote_three.html?id="+data.votequestionid+"&state="+status
-            });
-
             obj.find(".tatle a").attr({
                 "href":"cw_vote_two.html?state="+status
             });
             obj.attr({
                 "dataid":data.votequestionid
             });
-            if(state){
+            obj.find(".name a").attr({
+                "href":"cw_vote_three.html?id="+data.votequestionid+"&state="+status
+            });
+
+            if(state == 1){
                 obj.find(".number").html(data.number+"<i>人参与</i>");
+            }else{
+                obj.find(".tatle h3").html('大家来投票<i>（进行中）</i>');
             }
             obj.find(".name a").text(data.title);
             for(var i= 0,j=data.options.length;i<j;i++){
                 var id="h"+i;
-                if(state){
+                if(state == 1){
                     obj.find(".chek").append($('<div><input type="radio" disabled=""><label>'+data.options[i].title+'</label></div>'));
+                    obj.find(".sub").css({
+                        "display":"none"
+                    });
                 }else{
                     var tem=$('<div dataid="'+data.options[i].voteoptionid+'"><input type="radio" name="check"><label>'+data.options[i].title+'</label></div>');
                     tem.find("input").attr({
