@@ -228,3 +228,18 @@
   text-overflow: ellipsis;
   text-align: right;
 }
+.wapper .ok {
+  text-align: center;
+  margin-top: 30px;
+}
+.wapper .ok a {
+  display: inline-block;
+  width: 128px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #19a290;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+}

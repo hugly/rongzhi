@@ -1,0 +1,307 @@
+/*
+@ project:CC
+@ date:2015-09-22
+*/
+.wapper {
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wapper .box {
+  margin-top: 30px;
+}
+.wapper .box .title {
+  padding-top: 12px;
+  padding-left: 12px;
+}
+.wapper .box .title a {
+  font-size: 14px;
+  color: #777;
+}
+.wapper .box .title a.color {
+  color: #26a08b;
+}
+.wapper .box .State {
+  padding-left: 12px;
+  padding-top: 12px;
+}
+.wapper .box .State select {
+  width: 57px;
+  height: 18px;
+  border: 1px solid #e0e0e0;
+  color: #797979;
+  margin-right: 33px;
+}
+.wapper .box .State .name {
+  color: #787878;
+  margin-right: 12px;
+}
+.wapper .box .State .add {
+  display: inline-block;
+  width: 57px;
+  height: 18px;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  line-height: 18px;
+  color: #787878;
+  margin-right: 5px;
+}
+.wapper .box .State i {
+  background: #54afa0;
+  color: #fff;
+  padding: 0 5px;
+}
+.wapper .box .State b {
+  display: inline-block;
+  width: 17px;
+  height: 9px;
+  background: url("../css/images/h1.png") no-repeat center;
+}
+.wapper .box .box_time {
+  position: relative;
+  padding: 0 45px;
+  height: 51px;
+  margin-top: 20px;
+}
+.wapper .box .box_time .time {
+  overflow: hidden;
+  height: 50px;
+  position: relative;
+}
+.wapper .box .box_time .time ul {
+  height: 50px;
+  width: 889px;
+  position: absolute;
+  left: 0;
+}
+.wapper .box .box_time .time ul li {
+  width: 126px;
+  height: 48px;
+  float: left;
+  text-align: center;
+  border: 1px solid #bcb8b9;
+  color: #53ae9f;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: -1px;
+}
+.wapper .box .box_time .time ul li span {
+  display: inline-block;
+  width: 125px;
+  line-height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .box_time .time ul li .span_day {
+  margin-top: 8px;
+}
+.wapper .box .box_time .time ul li .span_day i {
+  margin-left: 5px;
+}
+.wapper .box .box_time .time ul li .Price {
+  color: #f8ba53;
+}
+.wapper .box .box_time .time ul li:hover {
+  border-bottom: none;
+}
+.wapper .box .box_time .time ul li.active {
+  border-bottom: none;
+}
+.wapper .box .box_time a {
+  position: absolute;
+  top: 0;
+  border: 1px solid #bcb8b9 ;
+  width: 45px;
+  height: 48px;
+  z-index: 5;
+}
+.wapper .box .box_time .left_left {
+  left: -1px;
+  background: url("../css/images/jt_2.png") no-repeat 22px center #ffffff;
+}
+.wapper .box .box_time .right_right {
+  right: 0;
+  background: url("../css/images/jt_2.png") no-repeat -7px center #ffffff;
+}
+.wapper .box .look {
+  margin-top: 18px;
+}
+.wapper .box .look a {
+  display: inline-block;
+  width: 137px;
+  height: 41px;
+  text-align: center;
+  line-height: 41px;
+  background: #009883;
+  color: #fff;
+  font-size: 14px;
+}
+.wapper .box .Choice {
+  margin-top: 10px;
+}
+.wapper .box .Choice select {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #e0e0e0;
+  margin-right: 25px;
+  color: #787878;
+}
+.wapper .box .Screening {
+  margin-top: 15px;
+}
+.wapper .box .Screening span {
+  display: inline-block;
+  font-size: 16px;
+  color: #777;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.wapper .box .Screening span i {
+  color: #009784;
+}
+.wapper .box .Screening .Comprehensive {
+  width: 125px;
+}
+.wapper .box .Screening .time {
+  width: 200px;
+  background: url("../css/images/jt_3.png") no-repeat 140px -20px;
+}
+.wapper .box .Screening .Price {
+  width: 120px;
+  background: url("../css/images/jt_3.png") no-repeat 46px 6px;
+}
+.wapper .box .Screening .Price_1 {
+  width: 120px;
+}
+.wapper .box .list_head {
+  margin-top: 15px;
+  padding: 5px 0;
+  position: relative;
+}
+.wapper .box .list_head .div1 span {
+  font-size: 16px;
+  color: #2b2b2b;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.wapper .box .list_head .div1 .name {
+  width: 170px;
+  background: url("../css/images/air_2.png") no-repeat 0px center;
+}
+.wapper .box .list_head .div1 .name i {
+  font-size: 12px;
+}
+.wapper .box .list_head .div1 .time {
+  width: 130px;
+}
+.wapper .box .list_head .div1 .attr {
+  width: 130px;
+}
+.wapper .box .list_head .div2 span {
+  font-size: 12px;
+  color: #797979;
+  display: inline-block;
+  text-align: center;
+}
+.wapper .box .list_head .div2 .name {
+  width: 170px;
+}
+.wapper .box .list_head .div2 .name i {
+  font-size: 12px;
+}
+.wapper .box .list_head .div2 .name b {
+  font-size: 16px;
+}
+.wapper .box .list_head .div2 .time {
+  width: 130px;
+}
+.wapper .box .list_head .div2 .attr {
+  width: 130px;
+}
+.wapper .box .list_head .div2 .attr i {
+  font-size: 16px;
+}
+.wapper .box .list_head .div2 .attr b {
+  font-size: 16px;
+  color: #f5b740;
+}
+.wapper .box .list_head .Price {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: #787878;
+  margin-top: -15px;
+  font-size: 12px;
+}
+.wapper .box .list_head .Price i {
+  color: #ff9101;
+  font-size: 18px;
+}
+.wapper .box .list {
+  margin-top: 10px;
+}
+.wapper .box .list li {
+  border-bottom: 1px dashed #bfbfbf;
+  padding: 5px 0;
+  min-height: 1px;
+  zoom: 1;
+}
+.wapper .box .list li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.wapper .box .list li span {
+  display: inline-block;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  line-height: 30px;
+  float: left;
+  color: #787878;
+}
+.wapper .box .list li .name {
+  width: 265px;
+}
+.wapper .box .list li .name i {
+  color: #f4b63d;
+}
+.wapper .box .list li .back {
+  width: 216px;
+  cursor: pointer;
+}
+.wapper .box .list li .Discount {
+  width: 132px;
+}
+.wapper .box .list li .Price {
+  width: 118px;
+}
+.wapper .box .list li .attr {
+  width: 175px;
+}
+.wapper .box .list li .ok {
+  width: 65px;
+  height: 30px;
+  background: #f7b642;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer;
+}

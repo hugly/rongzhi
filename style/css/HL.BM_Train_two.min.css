@@ -182,13 +182,15 @@
 }
 .wapper .box .list .left .head .Start {
   width: 110px;
+  background: url("../css/images/jt_3.png")no-repeat 75px  -22px;
 }
 .wapper .box .list .left .head .Time {
-  width: 65px;
+  width: 71px;
   text-align: center;
+  background: url("../css/images/jt_3.png")no-repeat 60px  5px;
 }
 .wapper .box .list .left .head .Money {
-  margin-left: 28px;
+  margin-left: 34px;
   width: 80px;
 }
 .wapper .box .list .left .head .Explain {
@@ -221,11 +223,11 @@
   float: left;
 }
 .wapper .box .list .left .list_list li .Number {
-  width: 70px;
+  width: 75px;
   padding-left: 15px;
 }
 .wapper .box .list .left .list_list li .Start {
-  width: 83px;
+  width: 90px;
 }
 .wapper .box .list .left .list_list li .Time {
   width: 120px;
@@ -358,13 +360,15 @@
 }
 .wapper .box .list .right .head .Start {
   width: 110px;
+  background: url("../css/images/jt_3.png")no-repeat 75px  -22px;
 }
 .wapper .box .list .right .head .Time {
-  width: 65px;
+  width: 71px;
   text-align: center;
+  background: url("../css/images/jt_3.png")no-repeat 60px  5px;
 }
 .wapper .box .list .right .head .Money {
-  margin-left: 28px;
+  margin-left: 34px;
   width: 80px;
 }
 .wapper .box .list .right .head .Explain {
@@ -397,11 +401,11 @@
   float: left;
 }
 .wapper .box .list .right .list_list li .Number {
-  width: 70px;
+  width: 75px;
   padding-left: 15px;
 }
 .wapper .box .list .right .list_list li .Start {
-  width: 83px;
+  width: 90px;
 }
 .wapper .box .list .right .list_list li .Time {
   width: 120px;
