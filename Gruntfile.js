@@ -44,7 +44,6 @@ module.exports = function(grunt) {
           'style/css/lw-info.min.css': 'style/less/lw-info.less',
           'style/css/HL.BM_Huaxi.min.css': 'style/less/HL.BM_Huaxi.less',
           'style/css/HL.BM_Train.min.css': 'style/less/HL.BM_Train.less',
-          'style/css/HL.BM_Airplane_Pay.min.css': 'style/less/HL.BM_Airplane_Pay.less',
           'style/css/HL.BM_School.min.css': 'style/less/HL.BM_School.less',
           'style/css/ZH.CW_Apply.css': 'style/less/ZH.CW_Apply.less',
           'style/css/ZH.CW_Apply_me.css': 'style/less/ZH.CW_Apply_me.less',
@@ -55,7 +54,8 @@ module.exports = function(grunt) {
           'style/css/lw-news.min.css': 'style/less/lw-news.less',
           'style/css/HL.BM_detailed_two.min.css': 'style/less/HL.BM_detailed_two.less',
           'style/css/HL.BM_Government_two.min.css': 'style/less/HL.BM_Government_two.less',
-          'style/css/HL.BM_hospital.min.css': 'style/less/HL.BM_hospital.less'
+          'style/css/HL.BM_hospital.min.css': 'style/less/HL.BM_hospital.less',
+          'style/css/HL.BM_Airplane_two.min.css': 'style/less/HL.BM_Airplane_two.less'
 
         }
       }

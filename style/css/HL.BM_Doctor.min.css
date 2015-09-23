@@ -239,13 +239,16 @@
   background: #f3f3f1;
   padding: 10px;
 }
+.wapper .box2 .right .div2 ul {
+  margin-left: 25px;
+}
 .wapper .box2 .right .div2 ul li {
   list-style: initial;
   color: #989696;
 }
 .wapper .box2 .right .div2 ul li a {
   display: inline-block;
-  width: 330px;
+  width: 305px;
   white-space: nowrap;
   overflow: hidden;
   word-wrap: normal;
